@@ -1,0 +1,81 @@
+name: Ingest docs
+
+# Builds or refreshes a corpus in Neon. Manual (workflow_dispatch) for one source/version,
+# and daily to finish embedding on Gemini's free tier, which embeds at most 1,000 texts per
+# day per project (each text in a batch counts as one request). Ingestion is idempotent and
+# resumes from the embedding cache, so the daily run only pays for what is still missing.
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "expo or react-native"
+        required: true
+        default: expo
+        type: choice
+        options: [expo, react-native]
+      version:
+        description: "v58.0.0, v57.0.0, unversioned, or current (react-native)"
+        required: true
+        default: v58.0.0
+      ref:
+        description: "Branch, tag or SHA of the docs repository"
+        required: false
+        default: main
+      max_embed:
+        description: "Embed at most N new chunks (empty = no cap)"
+        required: false
+        default: ""
+  schedule:
+    # 08:15 UTC: after the Gemini free-tier daily reset (midnight Pacific).
+    - cron: "15 8 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      EMBEDDING_DIMENSIONS: "768"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --frozen --no-dev
+      - name: Migrate (no-op when up to date)
+        run: uv run migrate
+      - name: Ingest one corpus (manual run)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          extra=""
+          if [ -n "${{ inputs.max_embed }}" ]; then extra="--max-embed ${{ inputs.max_embed }}"; fi
+          uv run ingest "${{ inputs.source }}" --version "${{ inputs.version }}" \
+            --ref "${{ inputs.ref }}" --report runs/report.json $extra
+      - name: Resume every corpus (daily)
+        if: github.event_name == 'schedule'
+        # ~900 new embeddings a day, leaving ~100 requests for questions asked that day.
+        run: |
+          budget=900
+          for target in "react-native current" "expo v58.0.0" "expo unversioned" "expo v57.0.0"; do
+            set -- $target
+            uv run ingest "$1" --version "$2" --max-embed "$budget" --report "runs/$1-$2.json"
+            used=$(python -c "import json;print(json.load(open('runs/$1-$2.json'))['embedded'])")
+            budget=$((budget - used))
+            if [ "$budget" -le 0 ]; then echo "daily budget spent"; break; fi
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ingest-report
+          path: runs/*.json
+          if-no-files-found: ignore

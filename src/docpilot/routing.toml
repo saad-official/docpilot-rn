@@ -1,0 +1,89 @@
+# Model routing: which model does which job, and what happens when it cannot.
+# Prices: llm_kit.pricing (paid rates). Changing a model here is a behaviour change:
+# re-run `uv run evals --config hybrid --answers` and compare.
+
+version = "2026-10-04"
+
+[budget]
+# Hard ceiling per question, enforced by llm-kit's Ledger BEFORE each call.
+max_usd_per_question = 0.02
+
+[retry]
+# Interactive: a stuck primary should hand over to the fallback quickly, not back off for
+# a minute while the user watches a spinner.
+max_attempts = 2
+max_delay_s = 4.0
+deadline_s = 10.0
+
+[prompts]
+answer = "v1"
+diff = "v1"
+rewrite = "v1"
+judge = "v1"
+
+# ---------------------------------------------------------------------------- answer
+# One streamed call per question over ~6k tokens of passages. Groq's free tier allows
+# 8,000 tokens per minute per model, so the context budget is 6,000 and the fallback is
+# taken (instead of waiting) when the minute is already spent.
+[tiers.answer]
+provider = "groq"
+model = "openai/gpt-oss-120b"
+max_tokens = 2048          # reasoning model: hidden thinking counts against this
+temperature = 0.2
+reasoning_effort = "low"
+tpm_limit = 8000
+
+[[tiers.answer.fallbacks]]
+provider = "gemini"
+model = "gemini-3.5-flash-lite"
+max_tokens = 2048
+temperature = 0.2
+
+# ---------------------------------------------------------------------------- diff
+[tiers.diff]
+provider = "groq"
+model = "openai/gpt-oss-120b"
+max_tokens = 4096
+temperature = 0.2
+reasoning_effort = "low"
+tpm_limit = 8000
+schema_retries = 1
+
+[[tiers.diff.fallbacks]]
+provider = "gemini"
+model = "gemini-3.5-flash-lite"
+max_tokens = 4096
+temperature = 0.2
+
+# ---------------------------------------------------------------------------- rewrite
+# Turns a follow-up ("and on Android?") into a standalone query. Tiny, cheap, optional.
+[tiers.rewrite]
+provider = "groq"
+model = "openai/gpt-oss-20b"
+max_tokens = 1024
+temperature = 0.0
+reasoning_effort = "low"
+tpm_limit = 8000
+
+[[tiers.rewrite.fallbacks]]
+provider = "gemini"
+model = "gemini-3.5-flash-lite"
+max_tokens = 256
+temperature = 0.0
+
+# ---------------------------------------------------------------------------- judge
+# Evals only (`uv run evals --judge`): faithfulness and completeness, 1-5.
+[tiers.judge]
+provider = "groq"
+model = "openai/gpt-oss-120b"
+max_tokens = 2048
+temperature = 0.0
+reasoning_effort = "low"
+tpm_limit = 8000
+schema_retries = 1
+
+[[tiers.judge.fallbacks]]
+provider = "gemini"
+model = "gemini-3.5-flash-lite"
+max_tokens = 1024
+temperature = 0.0

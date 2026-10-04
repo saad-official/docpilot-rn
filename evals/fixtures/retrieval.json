@@ -1,0 +1,4112 @@
+{
+ "golden_version": "golden-v1",
+ "recorded_at": "2026-10-04 19:51 UTC",
+ "source": "a live run against Neon",
+ "coverage": [
+  {
+   "sdk": "expo",
+   "version": "v58.0.0",
+   "chunks": 877,
+   "embedded": 0,
+   "embedding_model": "gemini-embedding-001",
+   "commit": "0e8f35c56a"
+  },
+  {
+   "sdk": "expo",
+   "version": "v57.0.0",
+   "chunks": 833,
+   "embedded": 0,
+   "embedding_model": "gemini-embedding-001",
+   "commit": "0e8f35c56a"
+  },
+  {
+   "sdk": "expo",
+   "version": "unversioned",
+   "chunks": 2432,
+   "embedded": 65,
+   "embedding_model": "gemini-embedding-001",
+   "commit": "0e8f35c56a"
+  },
+  {
+   "sdk": "react-native",
+   "version": "current",
+   "chunks": 889,
+   "embedded": 467,
+   "embedding_model": "gemini-embedding-001",
+   "commit": "20927aedfe"
+  }
+ ],
+ "retrieval": {
+  "vector": {
+   "expo-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-10": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-11": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-12": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-13": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-14": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-15": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-16": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-17": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-18": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-19": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u2": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u3": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   }
+  },
+  "fulltext": {
+   "expo-01": {
+    "chunks": [
+     {
+      "id": "b63a8370f8c8f6ca88e7931d",
+      "url": "https://docs.expo.dev/tutorial/configuration/#splash-screen",
+      "heading_path": "Configure status bar, splash screen and app icon › Splash screen",
+      "version": "unversioned"
+     },
+     {
+      "id": "7e81fd3c130aa198dbc45995",
+      "url": "https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/",
+      "heading_path": "Splash screen and app icon",
+      "version": "unversioned"
+     },
+     {
+      "id": "ded536297f6de8807123b45b",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/splash-screen/#delay-hiding-the-splash-screen",
+      "heading_path": "SplashScreen › Usage › Delay hiding the splash screen",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "165cd79fe92b594185285cfe",
+      "url": "https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/#configure-the-splash-screen-icon",
+      "heading_path": "Splash screen and app icon › Splash screen › Configure the splash screen icon",
+      "version": "unversioned"
+     },
+     {
+      "id": "b14f61f45dc0e2f57ff5ef12",
+      "url": "https://docs.expo.dev/tutorial/configuration/",
+      "heading_path": "Configure status bar, splash screen and app icon",
+      "version": "unversioned"
+     },
+     {
+      "id": "d25163bc12dc4dffc6f9911f",
+      "url": "https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/#ios",
+      "heading_path": "Splash screen and app icon › App icon › Add the icon in app config › iOS",
+      "version": "unversioned"
+     },
+     {
+      "id": "9edcb1841ce0a48741c00a9c",
+      "url": "https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/#app-icon",
+      "heading_path": "Splash screen and app icon › App icon",
+      "version": "unversioned"
+     },
+     {
+      "id": "00d64fb9c11a11360f30b0ea",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/splash-screen/#animating-the-splash-screen",
+      "heading_path": "SplashScreen › Configuration › Animating the splash screen",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "65c27b129fba783ed9398303",
+      "url": "https://docs.expo.dev/eas/observe/get-started/#mark-interactive",
+      "heading_path": "Set up EAS Observe › Mark interactive",
+      "version": "unversioned"
+     },
+     {
+      "id": "8aa0fca3ea29e4bcc64a7849",
+      "url": "https://docs.expo.dev/modules/native-view-tutorial/#example-app-2",
+      "heading_path": "Tutorial: Create a native view › Add an event to notify when the page has loaded › Example app",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 7187.0,
+    "effective": "fulltext"
+   },
+   "expo-02": {
+    "chunks": [
+     {
+      "id": "a6db49867dd5e328c7b12283",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/#api",
+      "heading_path": "SecureStore › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "8b24a4f7faadfa5e96205a3e",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/#platform-value-storage",
+      "heading_path": "SecureStore › Platform value storage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "b399f5320697f568e06700fd",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/#android-auto-backup",
+      "heading_path": "SecureStore › Android Auto Backup",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "dbe633caa8aec7b5727c536a",
+      "url": "https://docs.expo.dev/guides/authentication/#storing-data",
+      "heading_path": "Authentication with OAuth or OpenID providers › Improving user experience › Storing data",
+      "version": "unversioned"
+     },
+     {
+      "id": "b064c4f8c2a9bf08d646e0af",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/#data-persistence",
+      "heading_path": "SecureStore › Data persistence",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "94bd2b861f61effdb6b85b97",
+      "url": "https://docs.expo.dev/develop/authentication/#custom-oauth-with-expo-api-routes",
+      "heading_path": "Authentication in Expo and React Native apps › OAuth 2.0 › Custom OAuth with Expo API Routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "c415cb802cbd2b8cf652b933",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/",
+      "heading_path": "SecureStore",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "c6720f73e5d170c7049231d3",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/securestore/#usage",
+      "heading_path": "SecureStore › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "c699c95a3eaecd3809e4c596",
+      "url": "https://docs.expo.dev/router/advanced/authentication/#using-protected-routes",
+      "heading_path": "Authentication in Expo Router › Using Protected Routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "925b8d84898b4489538c39d3",
+      "url": "https://docs.expo.dev/guides/using-clerk/#install-and-configure-clerk",
+      "heading_path": "Using Clerk › Install and configure Clerk",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 5500.0,
+    "effective": "fulltext"
+   },
+   "expo-03": {
+    "chunks": [
+     {
+      "id": "c73a012690eb8a821e778551",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/securestore/#api",
+      "heading_path": "SecureStore › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "dbe633caa8aec7b5727c536a",
+      "url": "https://docs.expo.dev/guides/authentication/#storing-data",
+      "heading_path": "Authentication with OAuth or OpenID providers › Improving user experience › Storing data",
+      "version": "unversioned"
+     },
+     {
+      "id": "0c816caee8ebb1197254371d",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/securestore/#android-auto-backup",
+      "heading_path": "SecureStore › Android Auto Backup",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "b3606de1777d63591487ca1b",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/securestore/#platform-value-storage",
+      "heading_path": "SecureStore › Platform value storage",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "68fc074e594004b3df470c00",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/securestore/#data-persistence",
+      "heading_path": "SecureStore › Data persistence",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "94bd2b861f61effdb6b85b97",
+      "url": "https://docs.expo.dev/develop/authentication/#custom-oauth-with-expo-api-routes",
+      "heading_path": "Authentication in Expo and React Native apps › OAuth 2.0 › Custom OAuth with Expo API Routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "5a456e1c7c6e489b07c21bdf",
+      "url": "https://docs.expo.dev/guides/environment-variables/#security-considerations",
+      "heading_path": "Environment variables in Expo › Security considerations",
+      "version": "unversioned"
+     },
+     {
+      "id": "91150080ae87a1ecdd9562c6",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#vs-code-expo-tools",
+      "heading_path": "Glossary of terms › VS Code Expo Tools",
+      "version": "unversioned"
+     },
+     {
+      "id": "78df6f3724941a1d2564cf4b",
+      "url": "https://docs.expo.dev/develop/user-interface/store-data/",
+      "heading_path": "Store data",
+      "version": "unversioned"
+     },
+     {
+      "id": "e7c22130b8bffe9c799c4d26",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/crypto/#aes-encryption-and-decryption",
+      "heading_path": "Crypto › Usage › AES encryption and decryption",
+      "version": "v57.0.0"
+     }
+    ],
+    "latency_ms": 5828.0,
+    "effective": "fulltext"
+   },
+   "expo-04": {
+    "chunks": [
+     {
+      "id": "16f472249854541fdca7c7cb",
+      "url": "https://docs.expo.dev/guides/dom-components/#public-assets",
+      "heading_path": "Using React DOM in Expo native apps › Public assets",
+      "version": "unversioned"
+     },
+     {
+      "id": "ba829e66c1234a0205d5948b",
+      "url": "https://docs.expo.dev/guides/environment-variables/",
+      "heading_path": "Environment variables in Expo",
+      "version": "unversioned"
+     },
+     {
+      "id": "32c05b2cb7fcedf272ba76c3",
+      "url": "https://docs.expo.dev/guides/environment-variables/#migrating-to-expo-environment-variables",
+      "heading_path": "Environment variables in Expo › Migrating to Expo environment variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "311fb4ffa982f3b07a264746",
+      "url": "https://docs.expo.dev/guides/using-resend/#add-a-base-url",
+      "heading_path": "Using Resend › Add a base URL",
+      "version": "unversioned"
+     },
+     {
+      "id": "b2c85c6248e2fde335eb133b",
+      "url": "https://docs.expo.dev/guides/using-posthog/#manual-setup",
+      "heading_path": "Using PostHog › Manual setup",
+      "version": "unversioned"
+     },
+     {
+      "id": "a493ad0c2e19f0e7fcf71f10",
+      "url": "https://docs.expo.dev/guides/tree-shaking/#custom-code-removal",
+      "heading_path": "Tree shaking and code removal › Custom code removal",
+      "version": "unversioned"
+     },
+     {
+      "id": "dac28c220be044c0a6c83677",
+      "url": "https://docs.expo.dev/guides/using-clerk/#install-and-configure-clerk",
+      "heading_path": "Using Clerk › Install and configure Clerk",
+      "version": "unversioned"
+     },
+     {
+      "id": "21cd47849978784e6936f7ff",
+      "url": "https://docs.expo.dev/guides/using-supabase/#manual-setup",
+      "heading_path": "Using Supabase › Manual setup",
+      "version": "unversioned"
+     },
+     {
+      "id": "bdda3523a6770f47b3ad7afb",
+      "url": "https://docs.expo.dev/versions/v58.0.0/config/metro/",
+      "heading_path": "metro.config.js",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "62505cb03de1f7bc67501fc4",
+      "url": "https://docs.expo.dev/guides/environment-variables/#reading-environment-variables-from-env-files",
+      "heading_path": "Environment variables in Expo › Reading environment variables from .env files",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 7032.0,
+    "effective": "fulltext"
+   },
+   "expo-05": {
+    "chunks": [
+     {
+      "id": "0e7d324d3608d9fa257d0a49",
+      "url": "https://docs.expo.dev/router/advanced/authentication/#using-protected-routes",
+      "heading_path": "Authentication in Expo Router › Using Protected Routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "73b673c1d2d6e5070b8070d3",
+      "url": "https://docs.expo.dev/router/basics/common-navigation-patterns/#authenticated-users-only-protected-routes",
+      "heading_path": "Common navigation patterns in Expo Router › Authenticated users only: protected routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "42d2a99a3d16162993df5a44",
+      "url": "https://docs.expo.dev/guides/using-clerk/#read-the-signed-in-user",
+      "heading_path": "Using Clerk › Read the signed-in user",
+      "version": "unversioned"
+     },
+     {
+      "id": "a2f5eb31c827d0fba260ab6f",
+      "url": "https://docs.expo.dev/router/advanced/authentication/#using-protected-routes",
+      "heading_path": "Authentication in Expo Router › Using Protected Routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "d9d1ffa5a3c674f01deeb798",
+      "url": "https://docs.expo.dev/router/advanced/authentication/#more-information",
+      "heading_path": "Authentication in Expo Router › More information",
+      "version": "unversioned"
+     },
+     {
+      "id": "8e11cd6c32971fad1496f066",
+      "url": "https://docs.expo.dev/router/advanced/protected/#nesting-protected-screens",
+      "heading_path": "Protected routes › Nesting protected screens",
+      "version": "unversioned"
+     },
+     {
+      "id": "96f9bc2af5b9adc27168c4f7",
+      "url": "https://docs.expo.dev/router/advanced/authentication/",
+      "heading_path": "Authentication in Expo Router",
+      "version": "unversioned"
+     },
+     {
+      "id": "cf6383acdf152a80c1921d40",
+      "url": "https://docs.expo.dev/router/basics/common-navigation-patterns/#one-screen-two-tabs-sharing-routes",
+      "heading_path": "Common navigation patterns in Expo Router › One screen, two tabs: sharing routes",
+      "version": "unversioned"
+     },
+     {
+      "id": "d928edc092ebb90c9dce6e8b",
+      "url": "https://docs.expo.dev/router/advanced/authentication-rewrites/#using-react-context-and-route-groups",
+      "heading_path": "Authentication in Expo Router using redirects › Using React Context and Route Groups",
+      "version": "unversioned"
+     },
+     {
+      "id": "c699c95a3eaecd3809e4c596",
+      "url": "https://docs.expo.dev/router/advanced/authentication/#using-protected-routes",
+      "heading_path": "Authentication in Expo Router › Using Protected Routes",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 4218.0,
+    "effective": "fulltext"
+   },
+   "expo-06": {
+    "chunks": [
+     {
+      "id": "3ce99a0e79e80f26fd9030fb",
+      "url": "https://docs.expo.dev/eas-update/eas-cli/#resume-updates-on-a-channel",
+      "heading_path": "Manage branches and channels with EAS CLI › Changing the state of your project's updates › Resume updates on a channel",
+      "version": "unversioned"
+     },
+     {
+      "id": "ba6e6bc82b658e8635ca149c",
+      "url": "https://docs.expo.dev/eas-update/getting-started/#configure-your-project",
+      "heading_path": "Get started with EAS Update › Configure your project",
+      "version": "unversioned"
+     },
+     {
+      "id": "3183c98be1d4df415ae13ea9",
+      "url": "https://docs.expo.dev/eas-update/getting-started/#make-changes-locally",
+      "heading_path": "Get started with EAS Update › Make changes locally",
+      "version": "unversioned"
+     },
+     {
+      "id": "dbfd7583006e7a0b79e6fefe",
+      "url": "https://docs.expo.dev/eas-update/integration-in-existing-native-apps/#installation-and-basic-configuration",
+      "heading_path": "Using EAS Update in an existing native app › Installation and basic configuration",
+      "version": "unversioned"
+     },
+     {
+      "id": "80ebfc8727c05f7f3780807d",
+      "url": "https://docs.expo.dev/eas-update/code-signing/#configure-your-project-to-use-code-signing",
+      "heading_path": "End-to-end code signing with EAS Update › Configure your project to use code signing",
+      "version": "unversioned"
+     },
+     {
+      "id": "504d3f03a71c2fab97a47f93",
+      "url": "https://docs.expo.dev/eas-update/code-signing/#configure-your-project-to-use-code-signing",
+      "heading_path": "End-to-end code signing with EAS Update › Configure your project to use code signing",
+      "version": "unversioned"
+     },
+     {
+      "id": "f3d8302477a9708ee2fca6c3",
+      "url": "https://docs.expo.dev/eas-update/debug/#configuration-issues",
+      "heading_path": "EAS Update debugging › Configuration issues",
+      "version": "unversioned"
+     },
+     {
+      "id": "e494a4d4fe8594576dfa8f45",
+      "url": "https://docs.expo.dev/eas-update/debug/#configuration-without-eas-build",
+      "heading_path": "EAS Update debugging › Configuration issues › Configuration without EAS Build",
+      "version": "unversioned"
+     },
+     {
+      "id": "b14c0e595012e1b881295609",
+      "url": "https://docs.expo.dev/eas-update/getting-started/#create-a-build-for-the-project",
+      "heading_path": "Get started with EAS Update › Create a build for the project",
+      "version": "unversioned"
+     },
+     {
+      "id": "ebd520fc7d93ea74ab80b40b",
+      "url": "https://docs.expo.dev/eas-update/debug/#verify-the-update",
+      "heading_path": "EAS Update debugging › Configuration issues › Configuration without EAS Build › Verify the update",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2938.0,
+    "effective": "fulltext"
+   },
+   "expo-07": {
+    "chunks": [
+     {
+      "id": "21cd47849978784e6936f7ff",
+      "url": "https://docs.expo.dev/guides/using-supabase/#manual-setup",
+      "heading_path": "Using Supabase › Manual setup",
+      "version": "unversioned"
+     },
+     {
+      "id": "99161036013ffa3d66d34e84",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#sqlcipher",
+      "heading_path": "SQLite › SQLCipher",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "cf803f81dcf44cbf9344b240",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#third-party-library-integrations",
+      "heading_path": "SQLite › Third-party library integrations",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "c1a1003024dee384795b934c",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#web-setup",
+      "heading_path": "SQLite › Web setup",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "62463b451b1da955e85ad6f2",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usage",
+      "heading_path": "SQLite › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "9ef97e13156b31d5b08d4773",
+      "url": "https://docs.expo.dev/guides/local-first/#tools-for-building-local-first-apps",
+      "heading_path": "Local-first architecture with Expo › Tools for building local-first apps",
+      "version": "unversioned"
+     },
+     {
+      "id": "2cb8a6d6bd5eef2747e54962",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/",
+      "heading_path": "SQLite",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "33fd3d92ea70f8de352f6e53",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usage",
+      "heading_path": "SQLite › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "013be38af737cc5d2ac97e6c",
+      "url": "https://docs.expo.dev/modules/shared-objects/#expo-libraries-that-use-shared-objects",
+      "heading_path": "Using shared objects › Expo libraries that use shared objects",
+      "version": "unversioned"
+     },
+     {
+      "id": "d8d531d5e173c550937a854a",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usage",
+      "heading_path": "SQLite › Usage",
+      "version": "v58.0.0"
+     }
+    ],
+    "latency_ms": 3203.0,
+    "effective": "fulltext"
+   },
+   "expo-08": {
+    "chunks": [
+     {
+      "id": "6d0372a9ddf099918321e9f5",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/imagepicker/#api",
+      "heading_path": "ImagePicker › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "ef0868e68eb1e25be322120d",
+      "url": "https://docs.expo.dev/eas/observe/integrations/expo-image/#view-events",
+      "heading_path": "Expo Image integration › View events",
+      "version": "unversioned"
+     },
+     {
+      "id": "daac4555905822fb5109582f",
+      "url": "https://docs.expo.dev/tutorial/build-with-ai/set-up-your-tools/#test-your-setup",
+      "heading_path": "Set up your tools › Test your setup",
+      "version": "unversioned"
+     },
+     {
+      "id": "0485be20293efc97b58c309d",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/imagepicker/",
+      "heading_path": "ImagePicker",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "8ed035f808cf124ca166e690",
+      "url": "https://docs.expo.dev/tutorial/image-picker/#use-the-selected-image",
+      "heading_path": "Use an image picker › Use the selected image",
+      "version": "unversioned"
+     },
+     {
+      "id": "37a50c3b7318bc9c899b7529",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/imagepicker/#configuration-in-app-config",
+      "heading_path": "ImagePicker › Configuration in app config",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "7ace2b9e2bc9e07c7b3a0504",
+      "url": "https://docs.expo.dev/tutorial/image-picker/#update-the-button-component",
+      "heading_path": "Use an image picker › Update the button component",
+      "version": "unversioned"
+     },
+     {
+      "id": "39d67091f22907cc3e0c9878",
+      "url": "https://docs.expo.dev/tutorial/build-with-ai/build-the-home-screen/#pick-a-photo-from-your-library",
+      "heading_path": "Build the home screen › Pick a photo from your library",
+      "version": "unversioned"
+     },
+     {
+      "id": "d6b24753687c09064c9c8ca2",
+      "url": "https://docs.expo.dev/modules/module-api/#examples",
+      "heading_path": "Module API Reference › Examples",
+      "version": "unversioned"
+     },
+     {
+      "id": "74b1c9278e08a03c7c86fc5c",
+      "url": "https://docs.expo.dev/tutorial/image-picker/#use-the-selected-image",
+      "heading_path": "Use an image picker › Use the selected image",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 4516.0,
+    "effective": "fulltext"
+   },
+   "expo-09": {
+    "chunks": [
+     {
+      "id": "3e4821af677e18af52ba59a1",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#background-permissions",
+      "heading_path": "Location › Configuration in app config › Background permissions",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "6d05364ca597b2367f5e30da",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#ios",
+      "heading_path": "Location › Permissions › iOS",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "ee59a7b3c10691d4bb2094df",
+      "url": "https://docs.expo.dev/guides/permissions/#resetting-permissions",
+      "heading_path": "Permissions › Resetting permissions",
+      "version": "unversioned"
+     },
+     {
+      "id": "facb336ce1933aaf29ef6829",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#android",
+      "heading_path": "Location › Permissions › Android",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "f0fbf16c1bf1d41dc243e77a",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#configuration-in-app-config",
+      "heading_path": "Location › Configuration in app config",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "504bf698ea751800c265c75f",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#present-a-local-in-app-notification-to-the-user",
+      "heading_path": "Notifications › Usage › Present a local (in-app) notification to the user",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "8d0fc68439635df1d89d2296",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#configuration-in-app-config",
+      "heading_path": "Location › Configuration in app config",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "7b6cef458834dcac3113e677",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/maps/#permissions",
+      "heading_path": "Maps › Permissions",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "8b24a0d0d56e2a42114fea4f",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/location/#configuration-in-app-config",
+      "heading_path": "Location › Configuration in app config",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "81ee9a84961747fa904bbe18",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#interpret-the-ios-permissions-response",
+      "heading_path": "Notifications › Permissions › Interpret the iOS permissions response",
+      "version": "v58.0.0"
+     }
+    ],
+    "latency_ms": 2015.0,
+    "effective": "fulltext"
+   },
+   "expo-10": {
+    "chunks": [
+     {
+      "id": "5a8a1351d37a9f68556c8daa",
+      "url": "https://docs.expo.dev/build/setup/#log-in-to-your-expo-account",
+      "heading_path": "Create your first build › Log in to your Expo account",
+      "version": "unversioned"
+     },
+     {
+      "id": "a846c29e1ec036bcc2ca7bd3",
+      "url": "https://docs.expo.dev/build/setup/#wait-for-the-build-to-complete",
+      "heading_path": "Create your first build › Wait for the build to complete",
+      "version": "unversioned"
+     },
+     {
+      "id": "458062c2641c427e8cc663df",
+      "url": "https://docs.expo.dev/bare/install-dev-builds-in-bare/#build-and-install-the-app",
+      "heading_path": "Install expo-dev-client in an existing React Native project › Build and install the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "b0520cd5597191e9b4d6b404",
+      "url": "https://docs.expo.dev/eas-update/getting-started/#install-the-latest-eas-cli",
+      "heading_path": "Get started with EAS Update › Install the latest EAS CLI",
+      "version": "unversioned"
+     },
+     {
+      "id": "ae4eec050cd7a6570bc038b6",
+      "url": "https://docs.expo.dev/accounts/audit-logs/#view-audit-logs-with-eas-cli",
+      "heading_path": "Audit logs › View audit logs with EAS CLI",
+      "version": "unversioned"
+     },
+     {
+      "id": "ed3d0334aa42e1d6ba1f27ef",
+      "url": "https://docs.expo.dev/eas/observe/eas-cli/#eas-observeversions",
+      "heading_path": "Querying with EAS CLI › `eas observe:versions`",
+      "version": "unversioned"
+     },
+     {
+      "id": "eea8a4e015556ffecf6d2621",
+      "url": "https://docs.expo.dev/build-reference/simulators/#running-the-latest-build",
+      "heading_path": "Build for iOS Simulators › Installing build on the simulator › Running the latest build",
+      "version": "unversioned"
+     },
+     {
+      "id": "0a4560cc6cacc9a6601d2a23",
+      "url": "https://docs.expo.dev/develop/tools/#eas-cli",
+      "heading_path": "Tools for development › EAS CLI",
+      "version": "unversioned"
+     },
+     {
+      "id": "01db362db212fe23e0c41046",
+      "url": "https://docs.expo.dev/tutorial/cicd/first-workflow/#run-the-chained-workflow",
+      "heading_path": "Run your first EAS Workflows job › Chain jobs together › Run the chained workflow",
+      "version": "unversioned"
+     },
+     {
+      "id": "3202c2bbb7d6f0d99ed66920",
+      "url": "https://docs.expo.dev/eas/observe/eas-cli/",
+      "heading_path": "Querying with EAS CLI",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2297.0,
+    "effective": "fulltext"
+   },
+   "expo-11": {
+    "chunks": [
+     {
+      "id": "f27a23cdfe1d947cf60b3f71",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#platform-support",
+      "heading_path": "Continuous Native Generation (CNG) › Platform support",
+      "version": "unversioned"
+     },
+     {
+      "id": "c4ef0a832ac1e16caa4038d7",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#package-managers",
+      "heading_path": "Continuous Native Generation (CNG) › Package managers",
+      "version": "unversioned"
+     },
+     {
+      "id": "c8fe37b4408894fdd0c75f50",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#continuous-native-generation-cng",
+      "heading_path": "Glossary of terms › Continuous Native Generation (CNG)",
+      "version": "unversioned"
+     },
+     {
+      "id": "917563d93e86f3c1205e9e23",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#dependencies",
+      "heading_path": "Continuous Native Generation (CNG) › Dependencies",
+      "version": "unversioned"
+     },
+     {
+      "id": "7f2a66d84acbd5e5553231ef",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#side-effects",
+      "heading_path": "Continuous Native Generation (CNG) › Side effects",
+      "version": "unversioned"
+     },
+     {
+      "id": "c87d60e58246ef3df669794e",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#optionality",
+      "heading_path": "Continuous Native Generation (CNG) › Optionality",
+      "version": "unversioned"
+     },
+     {
+      "id": "9d91e417e949c43ce9717747",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#templates",
+      "heading_path": "Continuous Native Generation (CNG) › Templates",
+      "version": "unversioned"
+     },
+     {
+      "id": "13f08e70c717ed5f93015725",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#clean",
+      "heading_path": "Continuous Native Generation (CNG) › Clean",
+      "version": "unversioned"
+     },
+     {
+      "id": "4dc37eb702e1edacb397be1e",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/",
+      "heading_path": "Continuous Native Generation (CNG)",
+      "version": "unversioned"
+     },
+     {
+      "id": "47987f14d138bd331cf69879",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#usage",
+      "heading_path": "Continuous Native Generation (CNG) › Usage",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2078.0,
+    "effective": "fulltext"
+   },
+   "expo-12": {
+    "chunks": [
+     {
+      "id": "04eb388c5e21e9882926fa6f",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#get-credentials-for-development-builds",
+      "heading_path": "Expo push notifications setup › Get credentials for development builds",
+      "version": "unversioned"
+     },
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "28047468c4e246242a0e4659",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#test-using-the-push-notifications-tool",
+      "heading_path": "Expo push notifications setup › Test using the push notifications tool",
+      "version": "unversioned"
+     },
+     {
+      "id": "8a88d81476e80f7b9739e923",
+      "url": "https://docs.expo.dev/app-signing/security/#ios-push-notification-credentials",
+      "heading_path": "Security › iOS Push Notification credentials",
+      "version": "unversioned"
+     },
+     {
+      "id": "4e3767fe6e36e95e0014075d",
+      "url": "https://docs.expo.dev/push-notifications/faq/#push-notifications-troubleshooting",
+      "heading_path": "Push notifications troubleshooting and FAQ › Push notifications troubleshooting",
+      "version": "unversioned"
+     },
+     {
+      "id": "4a0d5dcf645929592afd6eb1",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/",
+      "heading_path": "Expo push notifications setup",
+      "version": "unversioned"
+     },
+     {
+      "id": "e4f2dec58f22b3e3c06ac304",
+      "url": "https://docs.expo.dev/app-signing/security/#google-developer-credentials",
+      "heading_path": "Security › Google Developer credentials",
+      "version": "unversioned"
+     },
+     {
+      "id": "67cb944e0fffc3df871ed993",
+      "url": "https://docs.expo.dev/tutorial/cicd/development-builds/#trigger-the-workflow",
+      "heading_path": "Automate development builds with EAS Workflows › Custom jobs for unit testing › Trigger the workflow",
+      "version": "unversioned"
+     },
+     {
+      "id": "3a6b5bf616cafe8576a1af04",
+      "url": "https://docs.expo.dev/push-notifications/faq/#push-notifications-troubleshooting",
+      "heading_path": "Push notifications troubleshooting and FAQ › Push notifications troubleshooting",
+      "version": "unversioned"
+     },
+     {
+      "id": "73923899ff5d4cbf43d08beb",
+      "url": "https://docs.expo.dev/app-signing/security/#consequences-if-lost-5",
+      "heading_path": "Security › Apple Developer account credentials › Consequences if lost",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2047.0,
+    "effective": "fulltext"
+   },
+   "expo-13": {
+    "chunks": [
+     {
+      "id": "1ef03f94dcdce30494f82f07",
+      "url": "https://docs.expo.dev/eas/environment-variables/faq/#can-i-set-my-environment-variables-on-a-ci-provider-when-triggering-the-build-using-the-eas-build-command",
+      "heading_path": "Frequently asked questions about environment variables in EAS › Can I set my environment variables on a CI provider when triggering the build using the `eas build` command?",
+      "version": "unversioned"
+     },
+     {
+      "id": "9bdd68d156a2b1a38ab831f5",
+      "url": "https://docs.expo.dev/eas/environment-variables/faq/#how-do-environment-variables-work-for-my-development-builds",
+      "heading_path": "Frequently asked questions about environment variables in EAS › How do environment variables work for my development builds?",
+      "version": "unversioned"
+     },
+     {
+      "id": "8beb75c39686b86915a0f7a6",
+      "url": "https://docs.expo.dev/build/updates/#environment-variables-and-eas-update",
+      "heading_path": "Using EAS Update › Environment variables and `eas update`",
+      "version": "unversioned"
+     },
+     {
+      "id": "fbe2cfec05605728ccec521e",
+      "url": "https://docs.expo.dev/eas/environment-variables/usage/#using-environment-variables-in-eas-workflows",
+      "heading_path": "Using environment variables in EAS › Using environment variables in EAS Workflows",
+      "version": "unversioned"
+     },
+     {
+      "id": "8c1c86c5c2c26fe565348d11",
+      "url": "https://docs.expo.dev/eas/environment-variables/usage/#using-environment-variables-with-eas-build",
+      "heading_path": "Using environment variables in EAS › Using environment variables with EAS Build",
+      "version": "unversioned"
+     },
+     {
+      "id": "6f225c872128ae060896c7b2",
+      "url": "https://docs.expo.dev/build/eas-json/#environment-variables",
+      "heading_path": "Configure EAS Build with eas.json › Environment variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "5e570c405e710a5d22fcbe4b",
+      "url": "https://docs.expo.dev/eas/environment-variables/#visibility-settings-for-environment-variables",
+      "heading_path": "Environment variables in EAS › Visibility settings for environment variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "a5551cb9cee8be9f01b2c804",
+      "url": "https://docs.expo.dev/eas/environment-variables/manage/#secrets-and-file-variables",
+      "heading_path": "Create and manage environment variables in EAS › Using environment variables in your code › Secrets and file variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "f9dd1572be783e14fcb9e7fc",
+      "url": "https://docs.expo.dev/eas/environment-variables/#key-concepts",
+      "heading_path": "Environment variables in EAS › Key concepts",
+      "version": "unversioned"
+     },
+     {
+      "id": "ef74f9fa223f1243f52f6a64",
+      "url": "https://docs.expo.dev/eas/environment-variables/usage/#for-local-development",
+      "heading_path": "Using environment variables in EAS › Using environment variables with EAS Hosting › For local development",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2500.0,
+    "effective": "fulltext"
+   },
+   "expo-14": {
+    "chunks": [
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "ff0fe758567d7bc06c1b3bbc",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#add-config-plugin",
+      "heading_path": "Expo push notifications setup › Add config plugin",
+      "version": "unversioned"
+     },
+     {
+      "id": "23d07594106240dc5f0a76c5",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#api",
+      "heading_path": "Notifications › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "504bf698ea751800c265c75f",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#present-a-local-in-app-notification-to-the-user",
+      "heading_path": "Notifications › Usage › Present a local (in-app) notification to the user",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "81e4e5753a505f77fc13d3e3",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#push-receipts",
+      "heading_path": "Send notifications with the Expo Push Service › HTTP/2 API › Push receipts",
+      "version": "unversioned"
+     },
+     {
+      "id": "d68f419d30a79da4deb3ac02",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#formats",
+      "heading_path": "Send notifications with the Expo Push Service › Formats",
+      "version": "unversioned"
+     },
+     {
+      "id": "28047468c4e246242a0e4659",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#test-using-the-push-notifications-tool",
+      "heading_path": "Expo push notifications setup › Test using the push notifications tool",
+      "version": "unversioned"
+     },
+     {
+      "id": "618b5ea395613f8f263e3d5b",
+      "url": "https://docs.expo.dev/guides/using-push-notifications-services/#send-notifications-directly-via-fcm-and-apns",
+      "heading_path": "Using push notifications › Send notifications directly via FCM and APNs",
+      "version": "unversioned"
+     },
+     {
+      "id": "64edd4048c5bbb823a54ff83",
+      "url": "https://docs.expo.dev/push-notifications/faq/#when-and-why-does-the-expopushtoken-change",
+      "heading_path": "Push notifications troubleshooting and FAQ › Expo push notification service FAQ › When and why does the `ExpoPushToken` change",
+      "version": "unversioned"
+     },
+     {
+      "id": "2a1e7cc11055353e6175449f",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#delivery-guarantees",
+      "heading_path": "Send notifications with the Expo Push Service › Delivery guarantees",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 5906.0,
+    "effective": "fulltext"
+   },
+   "expo-15": {
+    "chunks": [
+     {
+      "id": "5e570c405e710a5d22fcbe4b",
+      "url": "https://docs.expo.dev/eas/environment-variables/#visibility-settings-for-environment-variables",
+      "heading_path": "Environment variables in EAS › Visibility settings for environment variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "1ef03f94dcdce30494f82f07",
+      "url": "https://docs.expo.dev/eas/environment-variables/faq/#can-i-set-my-environment-variables-on-a-ci-provider-when-triggering-the-build-using-the-eas-build-command",
+      "heading_path": "Frequently asked questions about environment variables in EAS › Can I set my environment variables on a CI provider when triggering the build using the `eas build` command?",
+      "version": "unversioned"
+     },
+     {
+      "id": "23bae0c55d28dfa6d7aa517b",
+      "url": "https://docs.expo.dev/eas/environment-variables/manage/#create-variables-with-eas-cli",
+      "heading_path": "Create and manage environment variables in EAS › Create environment variables › Create variables with EAS CLI",
+      "version": "unversioned"
+     },
+     {
+      "id": "fbe2cfec05605728ccec521e",
+      "url": "https://docs.expo.dev/eas/environment-variables/usage/#using-environment-variables-in-eas-workflows",
+      "heading_path": "Using environment variables in EAS › Using environment variables in EAS Workflows",
+      "version": "unversioned"
+     },
+     {
+      "id": "9bdd68d156a2b1a38ab831f5",
+      "url": "https://docs.expo.dev/eas/environment-variables/faq/#how-do-environment-variables-work-for-my-development-builds",
+      "heading_path": "Frequently asked questions about environment variables in EAS › How do environment variables work for my development builds?",
+      "version": "unversioned"
+     },
+     {
+      "id": "8beb75c39686b86915a0f7a6",
+      "url": "https://docs.expo.dev/build/updates/#environment-variables-and-eas-update",
+      "heading_path": "Using EAS Update › Environment variables and `eas update`",
+      "version": "unversioned"
+     },
+     {
+      "id": "3a5313a28e2c0d2c0b576263",
+      "url": "https://docs.expo.dev/eas/environment-variables/faq/#are-there-any-limitations-to-using-environment-variables-in-eas",
+      "heading_path": "Frequently asked questions about environment variables in EAS › Are there any limitations to using environment variables in EAS?",
+      "version": "unversioned"
+     },
+     {
+      "id": "a5551cb9cee8be9f01b2c804",
+      "url": "https://docs.expo.dev/eas/environment-variables/manage/#secrets-and-file-variables",
+      "heading_path": "Create and manage environment variables in EAS › Using environment variables in your code › Secrets and file variables",
+      "version": "unversioned"
+     },
+     {
+      "id": "f289a2f596890dedd010424a",
+      "url": "https://docs.expo.dev/eas/workflows/environment/#setting-environment-variables-in-a-job",
+      "heading_path": "Environment variables in EAS Workflows › Setting environment variables in a job",
+      "version": "unversioned"
+     },
+     {
+      "id": "ef74f9fa223f1243f52f6a64",
+      "url": "https://docs.expo.dev/eas/environment-variables/usage/#for-local-development",
+      "heading_path": "Using environment variables in EAS › Using environment variables with EAS Hosting › For local development",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 5844.0,
+    "effective": "fulltext"
+   },
+   "expo-16": {
+    "chunks": [
+     {
+      "id": "3688ca08fc4d3696a9181d30",
+      "url": "https://docs.expo.dev/troubleshooting/expo-go-version-mismatch/#upgrade-the-project-or-use-a-development-build",
+      "heading_path": "\"Project is incompatible with this version of Expo Go\" error › Upgrade the project or use a development build",
+      "version": "unversioned"
+     },
+     {
+      "id": "02e1397b07ff8fe1748683fa",
+      "url": "https://docs.expo.dev/develop/development-builds/faq/#why-use-a-development-build-aka-what-cant-you-do-in-expo-go-and-why",
+      "heading_path": "Development builds FAQ › Why use a development build (a.k.a what _can't_ you do in Expo Go and why)",
+      "version": "unversioned"
+     },
+     {
+      "id": "31ee08eccc7426e76c274243",
+      "url": "https://docs.expo.dev/debugging/devtools-plugins/#compatibility-with-expo-go-and-development-builds",
+      "heading_path": "Dev tools plugins › Add a dev tools plugin to a project › Compatibility with Expo Go and Development builds",
+      "version": "unversioned"
+     },
+     {
+      "id": "bf12d88e90821d74b4c3b8b7",
+      "url": "https://docs.expo.dev/build/updates/#previewing-updates-in-development-builds",
+      "heading_path": "Using EAS Update › Previewing updates in development builds",
+      "version": "unversioned"
+     },
+     {
+      "id": "23c4ab91659155b6f1e820b4",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#expo-go",
+      "heading_path": "Glossary of terms › Expo Go",
+      "version": "unversioned"
+     },
+     {
+      "id": "f68a6479450edea5cd3655d1",
+      "url": "https://docs.expo.dev/tutorial/eas/configure-development-build/#install-expo-dev-client-library",
+      "heading_path": "Configure a development build in cloud › Install expo-dev-client library",
+      "version": "unversioned"
+     },
+     {
+      "id": "ef62783c3cf3f4559f1d3b8a",
+      "url": "https://docs.expo.dev/develop/development-builds/faq/#why-use-a-development-build-aka-what-cant-you-do-in-expo-go-and-why",
+      "heading_path": "Development builds FAQ › Why use a development build (a.k.a what _can't_ you do in Expo Go and why)",
+      "version": "unversioned"
+     },
+     {
+      "id": "677877651aae7797c05a8aca",
+      "url": "https://docs.expo.dev/guides/building-for-tv/#apple-tv",
+      "heading_path": "Build Expo apps for TV › System requirements for TV development › Apple TV",
+      "version": "unversioned"
+     },
+     {
+      "id": "9f51323d06c6ca8dbd3e3c29",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#development-build",
+      "heading_path": "Glossary of terms › Development build",
+      "version": "unversioned"
+     },
+     {
+      "id": "85571b02d3b151a2ff436fc1",
+      "url": "https://docs.expo.dev/eas-update/expo-dev-client/#example",
+      "heading_path": "Preview updates in development builds › Example",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 7172.0,
+    "effective": "fulltext"
+   },
+   "expo-17": {
+    "chunks": [
+     {
+      "id": "83376f2d6bc08919716f3bd7",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/#ios",
+      "heading_path": "Location › Permissions › iOS",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "50f26d78d63640441665ffd5",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/#api",
+      "heading_path": "Location › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "6c9ea40ea42a46aced99d4ee",
+      "url": "https://docs.expo.dev/faq/#what-versions-of-android-and-ios-are-supported-by-the-expo-sdk",
+      "heading_path": "FAQ › What versions of Android and iOS are supported by the Expo SDK?",
+      "version": "unversioned"
+     },
+     {
+      "id": "59e68bbe40e997bf44f7a254",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/",
+      "heading_path": "Location",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "37fef46ae23b0edb9e30ee33",
+      "url": "https://docs.expo.dev/guides/sdk-libraries-migration/contacts/#containers-ios-only",
+      "heading_path": "Migrate to the new expo-contacts API › Containers (iOS only)",
+      "version": "unversioned"
+     },
+     {
+      "id": "f26ee29416f2aaeedb1afa05",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/#configuration-in-app-config",
+      "heading_path": "Location › Configuration in app config",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "9ae38b4eada943d3c7d3da6c",
+      "url": "https://docs.expo.dev/guides/sdk-libraries-migration/contacts/#groups-ios-only",
+      "heading_path": "Migrate to the new expo-contacts API › Groups (iOS only)",
+      "version": "unversioned"
+     },
+     {
+      "id": "d39e8116c3269f26a9cd97e0",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/#usage",
+      "heading_path": "Location › Usage",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "c2d21a9f4b42fb56356928a2",
+      "url": "https://docs.expo.dev/bare/installing-expo-modules/#configure-expo-cli-for-bundling-on-android-and-ios",
+      "heading_path": "Install Expo modules in an existing React Native project › Manual installation › Configure Expo CLI for bundling on Android and iOS",
+      "version": "unversioned"
+     },
+     {
+      "id": "52bd5308bab62bde7c134cfe",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/location/#background-permissions",
+      "heading_path": "Location › Configuration in app config › Background permissions",
+      "version": "v57.0.0"
+     }
+    ],
+    "latency_ms": 3313.0,
+    "effective": "fulltext"
+   },
+   "expo-18": {
+    "chunks": [
+     {
+      "id": "1f4fa70400ea9a5d116c738c",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usesqlitecontext-hook-with-reactsuspense",
+      "heading_path": "SQLite › Usage › `useSQLiteContext()` hook with `React.Suspense`",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "f2d99afe4a5d42a75f9353df",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usesqlitecontext-hook",
+      "heading_path": "SQLite › Usage › `useSQLiteContext()` hook",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "33fd3d92ea70f8de352f6e53",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usage",
+      "heading_path": "SQLite › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "28725ebdff31ed672b86e3e2",
+      "url": "https://docs.expo.dev/guides/server-components/#client-components",
+      "heading_path": "Using React Server Components in Expo Router apps › Client Components",
+      "version": "unversioned"
+     },
+     {
+      "id": "b4a13351c873bb0f096a9964",
+      "url": "https://docs.expo.dev/guides/server-components/#secrets",
+      "heading_path": "Using React Server Components in Expo Router apps › Secrets",
+      "version": "unversioned"
+     },
+     {
+      "id": "f117db22c022300567d786b6",
+      "url": "https://docs.expo.dev/guides/server-components/#server-components",
+      "heading_path": "Using React Server Components in Expo Router apps › Server Components",
+      "version": "unversioned"
+     },
+     {
+      "id": "095cb410f0054154a3ab4562",
+      "url": "https://docs.expo.dev/accounts/programmatic-access/#revoke-access-tokens",
+      "heading_path": "Programmatic access › Revoke access tokens",
+      "version": "unversioned"
+     },
+     {
+      "id": "eb3d814547988d1e994716eb",
+      "url": "https://docs.expo.dev/guides/server-components/#request-headers",
+      "heading_path": "Using React Server Components in Expo Router apps › Request headers",
+      "version": "unversioned"
+     },
+     {
+      "id": "7c8f2b5e5006d37ccacebacd",
+      "url": "https://docs.expo.dev/guides/server-components/#library-compatibility",
+      "heading_path": "Using React Server Components in Expo Router apps › Library compatibility",
+      "version": "unversioned"
+     },
+     {
+      "id": "ad01b59daed4d318eb08a736",
+      "url": "https://docs.expo.dev/guides/server-components/#testing-with-jest",
+      "heading_path": "Using React Server Components in Expo Router apps › Testing with jest",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 4093.0,
+    "effective": "fulltext"
+   },
+   "expo-19": {
+    "chunks": [
+     {
+      "id": "874fb02c5c6937630efdfc7b",
+      "url": "https://docs.expo.dev/guides/tailwind/#alternative-for-android-and-ios",
+      "heading_path": "Tailwind CSS › Alternative for Android and iOS",
+      "version": "unversioned"
+     },
+     {
+      "id": "c2d21a9f4b42fb56356928a2",
+      "url": "https://docs.expo.dev/bare/installing-expo-modules/#configure-expo-cli-for-bundling-on-android-and-ios",
+      "heading_path": "Install Expo modules in an existing React Native project › Manual installation › Configure Expo CLI for bundling on Android and iOS",
+      "version": "unversioned"
+     },
+     {
+      "id": "5edb4487cd5d67d03f96dfa2",
+      "url": "https://docs.expo.dev/linking/overview/#linking-to-other-apps-from-your-app",
+      "heading_path": "Overview of linking, deep links, Android App Links, and iOS Universal Links › Linking to other apps from your app",
+      "version": "unversioned"
+     },
+     {
+      "id": "6c9ea40ea42a46aced99d4ee",
+      "url": "https://docs.expo.dev/faq/#what-versions-of-android-and-ios-are-supported-by-the-expo-sdk",
+      "heading_path": "FAQ › What versions of Android and iOS are supported by the Expo SDK?",
+      "version": "unversioned"
+     },
+     {
+      "id": "59ce9fe72a0689807e1e7f39",
+      "url": "https://docs.expo.dev/build-reference/app-extensions/#existing-react-native-projects",
+      "heading_path": "iOS App Extensions › Existing React Native projects",
+      "version": "unversioned"
+     },
+     {
+      "id": "c5579a9dc6178e31dd647554",
+      "url": "https://docs.expo.dev/config-plugins/development-and-debugging/#configure-android-app-startup",
+      "heading_path": "Developing and debugging a plugin › Modifying native files with plugins › Configure Android app startup",
+      "version": "unversioned"
+     },
+     {
+      "id": "4f903f6f08d446f8db1f7d5f",
+      "url": "https://docs.expo.dev/guides/tailwind/#tailwind-for-android-and-ios",
+      "heading_path": "Tailwind CSS › Tailwind for Android and iOS",
+      "version": "unversioned"
+     },
+     {
+      "id": "7701c284cb15c2fa111afdcf",
+      "url": "https://docs.expo.dev/bare/using-expo-cli/#start-the-bundler-independently",
+      "heading_path": "Migrate from React Native CLI to Expo CLI › Start the bundler independently",
+      "version": "unversioned"
+     },
+     {
+      "id": "f27a23cdfe1d947cf60b3f71",
+      "url": "https://docs.expo.dev/workflow/continuous-native-generation/#platform-support",
+      "heading_path": "Continuous Native Generation (CNG) › Platform support",
+      "version": "unversioned"
+     },
+     {
+      "id": "f5b94bfe332d7de1c17244fa",
+      "url": "https://docs.expo.dev/bare/using-expo-cli/#compile-and-run-your-app",
+      "heading_path": "Migrate from React Native CLI to Expo CLI › Compile and run your app",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 5266.0,
+    "effective": "fulltext"
+   },
+   "expo-u1": {
+    "chunks": [
+     {
+      "id": "abda705a396078c14cb4e157",
+      "url": "https://docs.expo.dev/deploy/web/#expo-skills-for-ai-agents",
+      "heading_path": "Publish your web app › Deploy automatically › Expo Skills for AI agents",
+      "version": "unversioned"
+     },
+     {
+      "id": "8d726f3b95467adc059b3842",
+      "url": "https://docs.expo.dev/workflow/overview/#release-app-to-stores",
+      "heading_path": "Develop an app with Expo › Release app to stores",
+      "version": "unversioned"
+     },
+     {
+      "id": "ad52ab24f3b6d35dc36a7fbc",
+      "url": "https://docs.expo.dev/faq/#how-do-i-share-my-expo-project-can-i-submit-it-to-the-app-stores",
+      "heading_path": "FAQ › How do I share my Expo project? Can I submit it to the app stores?",
+      "version": "unversioned"
+     },
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "6808d8b57b481f3a7edb1236",
+      "url": "https://docs.expo.dev/deploy/build-project/#next-step",
+      "heading_path": "Build your project for app stores › Next step",
+      "version": "unversioned"
+     },
+     {
+      "id": "df665c8bf3da1a9e40ea83ba",
+      "url": "https://docs.expo.dev/submit/ios-manual/#further-reading",
+      "heading_path": "Manually submit an iOS app to the Apple App Store › Further reading",
+      "version": "unversioned"
+     },
+     {
+      "id": "e8d19c05acd3860e90482f78",
+      "url": "https://docs.expo.dev/submit/ios-manual/#build-the-app-for-release",
+      "heading_path": "Manually submit an iOS app to the Apple App Store › Build the app for release",
+      "version": "unversioned"
+     },
+     {
+      "id": "b85b40261a8bf808213441f7",
+      "url": "https://docs.expo.dev/deploy/web/#learn-more",
+      "heading_path": "Publish your web app › Learn more",
+      "version": "unversioned"
+     },
+     {
+      "id": "f46288ada2617aa6d1eef054",
+      "url": "https://docs.expo.dev/faq/#can-i-develop-ios-apps-on-a-windows-computer",
+      "heading_path": "FAQ › Can I develop iOS apps on a Windows computer?",
+      "version": "unversioned"
+     },
+     {
+      "id": "e3c5482c6c866d73a8a4eaaa",
+      "url": "https://docs.expo.dev/deploy/submit-to-app-stores/#choose-a-submission-path",
+      "heading_path": "Submit to app stores › Choose a submission path",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 1797.0,
+    "effective": "fulltext"
+   },
+   "expo-u2": {
+    "chunks": [
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "0cb2580ebc9b5be167c60fd2",
+      "url": "https://docs.expo.dev/build/building-from-github/#configure-your-repository-settings",
+      "heading_path": "Trigger builds from the Expo GitHub App › Configure your app for GitHub › Configure your repository settings",
+      "version": "unversioned"
+     },
+     {
+      "id": "677877651aae7797c05a8aca",
+      "url": "https://docs.expo.dev/guides/building-for-tv/#apple-tv",
+      "heading_path": "Build Expo apps for TV › System requirements for TV development › Apple TV",
+      "version": "unversioned"
+     },
+     {
+      "id": "9f841a8430e586cbc4452cd1",
+      "url": "https://docs.expo.dev/guides/building-for-tv/#examples-and-demonstration-projects",
+      "heading_path": "Build Expo apps for TV › Examples and demonstration projects",
+      "version": "unversioned"
+     },
+     {
+      "id": "458062c2641c427e8cc663df",
+      "url": "https://docs.expo.dev/bare/install-dev-builds-in-bare/#build-and-install-the-app",
+      "heading_path": "Install expo-dev-client in an existing React Native project › Build and install the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "d235a736cfe4c48a95a798a0",
+      "url": "https://docs.expo.dev/tutorial/build-with-ai/introduction/#next-step",
+      "heading_path": "Tutorial: Build an app with an AI agent › Next step",
+      "version": "unversioned"
+     },
+     {
+      "id": "fc227d45d82f587b5dc7adef",
+      "url": "https://docs.expo.dev/guides/building-for-tv/#quick-start",
+      "heading_path": "Build Expo apps for TV › Quick start",
+      "version": "unversioned"
+     },
+     {
+      "id": "72fe63ef20e2dca412dc3ac8",
+      "url": "https://docs.expo.dev/workflow/overview/",
+      "heading_path": "Develop an app with Expo",
+      "version": "unversioned"
+     },
+     {
+      "id": "fde9b1c66b0a6eb47010309e",
+      "url": "https://docs.expo.dev/tutorial/build-with-ai/introduction/#chapters",
+      "heading_path": "Tutorial: Build an app with an AI agent › Chapters",
+      "version": "unversioned"
+     },
+     {
+      "id": "c527e50ba414bb37af16c1f5",
+      "url": "https://docs.expo.dev/guides/local-first/#challenges-in-building-local-first-apps",
+      "heading_path": "Local-first architecture with Expo › Challenges in building local-first apps",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2906.0,
+    "effective": "fulltext"
+   },
+   "expo-u3": {
+    "chunks": [
+     {
+      "id": "5dda30940ed899807b54e1ac",
+      "url": "https://docs.expo.dev/billing/usage-based-pricing/#example-eas-update-usage-starter-plan",
+      "heading_path": "Usage-based pricing › How usage-based pricing works › EAS Update › Example: EAS Update usage (Starter plan)",
+      "version": "unversioned"
+     },
+     {
+      "id": "d72e2e70a26c5c3a7f414d8d",
+      "url": "https://docs.expo.dev/billing/usage-based-pricing/#example-eas-update-usage-starter-plan",
+      "heading_path": "Usage-based pricing › How usage-based pricing works › EAS Update › Example: EAS Update usage (Starter plan)",
+      "version": "unversioned"
+     },
+     {
+      "id": "2157c8ed7cc6ed80967489b7",
+      "url": "https://docs.expo.dev/billing/usage-based-pricing/",
+      "heading_path": "Usage-based pricing",
+      "version": "unversioned"
+     },
+     {
+      "id": "93d59b63b3339b11428ced9f",
+      "url": "https://docs.expo.dev/billing/plans/#plans",
+      "heading_path": "Subscriptions, plans, and add-ons › Plans",
+      "version": "unversioned"
+     },
+     {
+      "id": "5402684bbc595f6d1f6d530a",
+      "url": "https://docs.expo.dev/billing/plans/#enterprise-support",
+      "heading_path": "Subscriptions, plans, and add-ons › Add-ons › Enterprise Support",
+      "version": "unversioned"
+     },
+     {
+      "id": "eeb3164b39a95386bd5add48",
+      "url": "https://docs.expo.dev/billing/faq/#billing",
+      "heading_path": "Plans, billing, and payment FAQs › Billing",
+      "version": "unversioned"
+     },
+     {
+      "id": "be36c9be19d6db7467fafcd8",
+      "url": "https://docs.expo.dev/billing/plans/",
+      "heading_path": "Subscriptions, plans, and add-ons",
+      "version": "unversioned"
+     },
+     {
+      "id": "5047f5c8660660157aa19960",
+      "url": "https://docs.expo.dev/billing/faq/#payments",
+      "heading_path": "Plans, billing, and payment FAQs › Payments",
+      "version": "unversioned"
+     },
+     {
+      "id": "2ce12bbb1eb46b1eca80afde",
+      "url": "https://docs.expo.dev/billing/manage/",
+      "heading_path": "Manage plans and billing",
+      "version": "unversioned"
+     },
+     {
+      "id": "21545e6d573305d92678c6ac",
+      "url": "https://docs.expo.dev/billing/usage-based-pricing/#how-usage-based-pricing-works",
+      "heading_path": "Usage-based pricing › How usage-based pricing works",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 1703.0,
+    "effective": "fulltext"
+   },
+   "vs-1-v58": {
+    "chunks": [
+     {
+      "id": "9834b99567020a02dadfbddb",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/localization/#usage",
+      "heading_path": "Localization › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "b404449fa76ffaa7843c9933",
+      "url": "https://docs.expo.dev/guides/localization/#changing-expo-router-direction-at-runtime",
+      "heading_path": "Localization › RTL support › Changing Expo Router direction at runtime",
+      "version": "unversioned"
+     },
+     {
+      "id": "7e88a44c02b13b51919d5aef",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/localization/#api",
+      "heading_path": "Localization › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "24344aa9679528e6e14ff957",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/localization/",
+      "heading_path": "Localization",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "1b1d3725b96e466c0cc1903e",
+      "url": "https://docs.expo.dev/guides/localization/#rtl-support",
+      "heading_path": "Localization › RTL support",
+      "version": "unversioned"
+     },
+     {
+      "id": "8d55b4954c0c188edfda897b",
+      "url": "https://docs.expo.dev/guides/localization/#locale-settings-and-units",
+      "heading_path": "Localization › Locale settings and units",
+      "version": "unversioned"
+     },
+     {
+      "id": "9a7e7ac62f99096281f533b9",
+      "url": "https://docs.expo.dev/guides/localization/#intl-api",
+      "heading_path": "Localization › Intl API",
+      "version": "unversioned"
+     },
+     {
+      "id": "c42c1be7afead354c93e7c60",
+      "url": "https://docs.expo.dev/guides/localization/",
+      "heading_path": "Localization",
+      "version": "unversioned"
+     },
+     {
+      "id": "d6b24753687c09064c9c8ca2",
+      "url": "https://docs.expo.dev/modules/module-api/#examples",
+      "heading_path": "Module API Reference › Examples",
+      "version": "unversioned"
+     },
+     {
+      "id": "eefbde089dcf64d3a4c7a628",
+      "url": "https://docs.expo.dev/guides/localization/#making-an-app-behave-correctly-on-rtl-locales",
+      "heading_path": "Localization › Making an app behave correctly on RTL locales",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 3688.0,
+    "effective": "fulltext"
+   },
+   "vs-1-v57": {
+    "chunks": [
+     {
+      "id": "b404449fa76ffaa7843c9933",
+      "url": "https://docs.expo.dev/guides/localization/#changing-expo-router-direction-at-runtime",
+      "heading_path": "Localization › RTL support › Changing Expo Router direction at runtime",
+      "version": "unversioned"
+     },
+     {
+      "id": "1b1d3725b96e466c0cc1903e",
+      "url": "https://docs.expo.dev/guides/localization/#rtl-support",
+      "heading_path": "Localization › RTL support",
+      "version": "unversioned"
+     },
+     {
+      "id": "741f34135d8775d78c94497e",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/localization/",
+      "heading_path": "Localization",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "8d55b4954c0c188edfda897b",
+      "url": "https://docs.expo.dev/guides/localization/#locale-settings-and-units",
+      "heading_path": "Localization › Locale settings and units",
+      "version": "unversioned"
+     },
+     {
+      "id": "9a7e7ac62f99096281f533b9",
+      "url": "https://docs.expo.dev/guides/localization/#intl-api",
+      "heading_path": "Localization › Intl API",
+      "version": "unversioned"
+     },
+     {
+      "id": "c42c1be7afead354c93e7c60",
+      "url": "https://docs.expo.dev/guides/localization/",
+      "heading_path": "Localization",
+      "version": "unversioned"
+     },
+     {
+      "id": "d6b24753687c09064c9c8ca2",
+      "url": "https://docs.expo.dev/modules/module-api/#examples",
+      "heading_path": "Module API Reference › Examples",
+      "version": "unversioned"
+     },
+     {
+      "id": "eefbde089dcf64d3a4c7a628",
+      "url": "https://docs.expo.dev/guides/localization/#making-an-app-behave-correctly-on-rtl-locales",
+      "heading_path": "Localization › Making an app behave correctly on RTL locales",
+      "version": "unversioned"
+     },
+     {
+      "id": "7e186477338fe154767cd23a",
+      "url": "https://docs.expo.dev/guides/localization/#making-an-app-behave-correctly-on-rtl-locales",
+      "heading_path": "Localization › Making an app behave correctly on RTL locales",
+      "version": "unversioned"
+     },
+     {
+      "id": "04bfd49d8279904edb80409b",
+      "url": "https://docs.expo.dev/guides/localization/#translating-an-app",
+      "heading_path": "Localization › Translating an app",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2172.0,
+    "effective": "fulltext"
+   },
+   "vs-2-v58": {
+    "chunks": [
+     {
+      "id": "8b38db2b54af20022ec2ca14",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/clipboard/",
+      "heading_path": "Clipboard",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "1db33e8100cabd4d27a3e0a8",
+      "url": "https://docs.expo.dev/modules/shared-objects/#android-implementation",
+      "heading_path": "Using shared objects › Example: Image manipulation without disk I/O › Android implementation",
+      "version": "unversioned"
+     },
+     {
+      "id": "882390333a48e9bf870df355",
+      "url": "https://docs.expo.dev/linking/android-app-links/#troubleshooting",
+      "heading_path": "Android App Links › Troubleshooting",
+      "version": "unversioned"
+     },
+     {
+      "id": "e623cac70d6a49c01fec9762",
+      "url": "https://docs.expo.dev/linking/android-app-links/#set-up-two-way-association",
+      "heading_path": "Android App Links › Set up two-way association",
+      "version": "unversioned"
+     },
+     {
+      "id": "340b768487fa1994ac3176c7",
+      "url": "https://docs.expo.dev/modules/android-lifecycle-listeners/#module-configuration",
+      "heading_path": "Android lifecycle listeners › Lifecycle listeners to JavaScript event flow › Module configuration",
+      "version": "unversioned"
+     },
+     {
+      "id": "67f3e8e9469a58f93cc6cae1",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/brownfield/#tasksandroid",
+      "heading_path": "Brownfield › CLI › Commands › `tasks:android`",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "bbfb681355120c4bf172d9e3",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/blur-view/#android-support",
+      "heading_path": "BlurView › Android support",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "a8a16c335d95f4c9ea811a91",
+      "url": "https://docs.expo.dev/modules/android-lifecycle-listeners/",
+      "heading_path": "Android lifecycle listeners",
+      "version": "unversioned"
+     },
+     {
+      "id": "cf96b7fd8a5aa226e283321d",
+      "url": "https://docs.expo.dev/tutorial/eas/android-production-build/#automated-release",
+      "heading_path": "Create a production build for Android › Automated release",
+      "version": "unversioned"
+     },
+     {
+      "id": "89a04681fce24745e4ce5977",
+      "url": "https://docs.expo.dev/build-reference/android-builds/",
+      "heading_path": "Android build process",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2921.0,
+    "effective": "fulltext"
+   },
+   "vs-2-v57": {
+    "chunks": [
+     {
+      "id": "3a1c528632b17404f23858f7",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/clipboard/",
+      "heading_path": "Clipboard",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "1db33e8100cabd4d27a3e0a8",
+      "url": "https://docs.expo.dev/modules/shared-objects/#android-implementation",
+      "heading_path": "Using shared objects › Example: Image manipulation without disk I/O › Android implementation",
+      "version": "unversioned"
+     },
+     {
+      "id": "882390333a48e9bf870df355",
+      "url": "https://docs.expo.dev/linking/android-app-links/#troubleshooting",
+      "heading_path": "Android App Links › Troubleshooting",
+      "version": "unversioned"
+     },
+     {
+      "id": "e623cac70d6a49c01fec9762",
+      "url": "https://docs.expo.dev/linking/android-app-links/#set-up-two-way-association",
+      "heading_path": "Android App Links › Set up two-way association",
+      "version": "unversioned"
+     },
+     {
+      "id": "340b768487fa1994ac3176c7",
+      "url": "https://docs.expo.dev/modules/android-lifecycle-listeners/#module-configuration",
+      "heading_path": "Android lifecycle listeners › Lifecycle listeners to JavaScript event flow › Module configuration",
+      "version": "unversioned"
+     },
+     {
+      "id": "5ae0652776a489a111d7da3b",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/brownfield/#tasksandroid",
+      "heading_path": "Brownfield › CLI › Commands › `tasks:android`",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "2e5aae4afb5daa6425c5e2d1",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/blur-view/#android-support",
+      "heading_path": "BlurView › Android support",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "a8a16c335d95f4c9ea811a91",
+      "url": "https://docs.expo.dev/modules/android-lifecycle-listeners/",
+      "heading_path": "Android lifecycle listeners",
+      "version": "unversioned"
+     },
+     {
+      "id": "cf96b7fd8a5aa226e283321d",
+      "url": "https://docs.expo.dev/tutorial/eas/android-production-build/#automated-release",
+      "heading_path": "Create a production build for Android › Automated release",
+      "version": "unversioned"
+     },
+     {
+      "id": "89a04681fce24745e4ce5977",
+      "url": "https://docs.expo.dev/build-reference/android-builds/",
+      "heading_path": "Android build process",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 1235.0,
+    "effective": "fulltext"
+   },
+   "vs-3-v58": {
+    "chunks": [
+     {
+      "id": "01f2a5b3cd00bfe694a85e2a",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/filesystem/#api",
+      "heading_path": "FileSystem › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "a51113b42ca494bbab82271e",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/document-picker/#using-with-expo-file-system",
+      "heading_path": "DocumentPicker › Using with `expo-file-system`",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "242562b39f5ec835554b3172",
+      "url": "https://docs.expo.dev/router/basics/core-concepts/#7-customizing-stack-and-tab-navigators",
+      "heading_path": "Core concepts of file-based routing in Expo Router › The rules of Expo Router › 7. Customizing stack and tab navigators",
+      "version": "unversioned"
+     },
+     {
+      "id": "1114e53748cf75a7272bd8ee",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/filesystem/#usage",
+      "heading_path": "FileSystem › Usage",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "572081b635a8d06551e40ae6",
+      "url": "https://docs.expo.dev/router/basics/core-concepts/#the-rules-of-expo-router-applied",
+      "heading_path": "Core concepts of file-based routing in Expo Router › The rules of Expo Router applied",
+      "version": "unversioned"
+     },
+     {
+      "id": "a2e234125fe4bcd368974b95",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/filesystem/",
+      "heading_path": "FileSystem",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "0f4099c5358f160f033bf193",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#expo-module-config",
+      "heading_path": "Glossary of terms › Expo Module Config",
+      "version": "unversioned"
+     },
+     {
+      "id": "cc0cea6954acc91f07253f1b",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/filesystem-legacy/#api",
+      "heading_path": "FileSystem (legacy) › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "b8888ad5ad65e0ddd5c46b23",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/media-library/",
+      "heading_path": "MediaLibrary",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "33fd3d92ea70f8de352f6e53",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/sqlite/#usage",
+      "heading_path": "SQLite › Usage",
+      "version": "v58.0.0"
+     }
+    ],
+    "latency_ms": 3281.0,
+    "effective": "fulltext"
+   },
+   "vs-3-v57": {
+    "chunks": [
+     {
+      "id": "9c959adc58f2fc631ed31ba1",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/filesystem/#api",
+      "heading_path": "FileSystem › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "ec46dcb4f43d66dd5d17dc06",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/document-picker/#using-with-expo-file-system",
+      "heading_path": "DocumentPicker › Using with `expo-file-system`",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "242562b39f5ec835554b3172",
+      "url": "https://docs.expo.dev/router/basics/core-concepts/#7-customizing-stack-and-tab-navigators",
+      "heading_path": "Core concepts of file-based routing in Expo Router › The rules of Expo Router › 7. Customizing stack and tab navigators",
+      "version": "unversioned"
+     },
+     {
+      "id": "8293866c062b1feeef136887",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/filesystem/#usage",
+      "heading_path": "FileSystem › Usage",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "572081b635a8d06551e40ae6",
+      "url": "https://docs.expo.dev/router/basics/core-concepts/#the-rules-of-expo-router-applied",
+      "heading_path": "Core concepts of file-based routing in Expo Router › The rules of Expo Router applied",
+      "version": "unversioned"
+     },
+     {
+      "id": "a488857bd779893845cf6101",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/filesystem/#examples",
+      "heading_path": "FileSystem › Examples",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "71c4d954692abb4056653118",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/filesystem/",
+      "heading_path": "FileSystem",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "0f4099c5358f160f033bf193",
+      "url": "https://docs.expo.dev/more/glossary-of-terms/#expo-module-config",
+      "heading_path": "Glossary of terms › Expo Module Config",
+      "version": "unversioned"
+     },
+     {
+      "id": "f0dc203ca6b7f355395aed0f",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/filesystem-legacy/#api",
+      "heading_path": "FileSystem (legacy) › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "a869f33c65a39571e266a26f",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/media-library/",
+      "heading_path": "MediaLibrary",
+      "version": "v57.0.0"
+     }
+    ],
+    "latency_ms": 1547.0,
+    "effective": "fulltext"
+   },
+   "vs-4-v58": {
+    "chunks": [
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "ff0fe758567d7bc06c1b3bbc",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#add-config-plugin",
+      "heading_path": "Expo push notifications setup › Add config plugin",
+      "version": "unversioned"
+     },
+     {
+      "id": "23d07594106240dc5f0a76c5",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#api",
+      "heading_path": "Notifications › API",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "504bf698ea751800c265c75f",
+      "url": "https://docs.expo.dev/versions/v58.0.0/sdk/notifications/#present-a-local-in-app-notification-to-the-user",
+      "heading_path": "Notifications › Usage › Present a local (in-app) notification to the user",
+      "version": "v58.0.0"
+     },
+     {
+      "id": "81e4e5753a505f77fc13d3e3",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#push-receipts",
+      "heading_path": "Send notifications with the Expo Push Service › HTTP/2 API › Push receipts",
+      "version": "unversioned"
+     },
+     {
+      "id": "d68f419d30a79da4deb3ac02",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#formats",
+      "heading_path": "Send notifications with the Expo Push Service › Formats",
+      "version": "unversioned"
+     },
+     {
+      "id": "28047468c4e246242a0e4659",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#test-using-the-push-notifications-tool",
+      "heading_path": "Expo push notifications setup › Test using the push notifications tool",
+      "version": "unversioned"
+     },
+     {
+      "id": "64edd4048c5bbb823a54ff83",
+      "url": "https://docs.expo.dev/push-notifications/faq/#when-and-why-does-the-expopushtoken-change",
+      "heading_path": "Push notifications troubleshooting and FAQ › Expo push notification service FAQ › When and why does the `ExpoPushToken` change",
+      "version": "unversioned"
+     },
+     {
+      "id": "618b5ea395613f8f263e3d5b",
+      "url": "https://docs.expo.dev/guides/using-push-notifications-services/#send-notifications-directly-via-fcm-and-apns",
+      "heading_path": "Using push notifications › Send notifications directly via FCM and APNs",
+      "version": "unversioned"
+     },
+     {
+      "id": "2a1e7cc11055353e6175449f",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#delivery-guarantees",
+      "heading_path": "Send notifications with the Expo Push Service › Delivery guarantees",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 2391.0,
+    "effective": "fulltext"
+   },
+   "vs-4-v57": {
+    "chunks": [
+     {
+      "id": "245305ed5e8d89e95f0d6335",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#build-the-app",
+      "heading_path": "Expo push notifications setup › Build the app",
+      "version": "unversioned"
+     },
+     {
+      "id": "ff0fe758567d7bc06c1b3bbc",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#add-config-plugin",
+      "heading_path": "Expo push notifications setup › Add config plugin",
+      "version": "unversioned"
+     },
+     {
+      "id": "a8376c71e7c17115e5647b72",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/notifications/#api",
+      "heading_path": "Notifications › API",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "81e4e5753a505f77fc13d3e3",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#push-receipts",
+      "heading_path": "Send notifications with the Expo Push Service › HTTP/2 API › Push receipts",
+      "version": "unversioned"
+     },
+     {
+      "id": "d68f419d30a79da4deb3ac02",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#formats",
+      "heading_path": "Send notifications with the Expo Push Service › Formats",
+      "version": "unversioned"
+     },
+     {
+      "id": "161f66918ddad547111e8f20",
+      "url": "https://docs.expo.dev/versions/v57.0.0/sdk/notifications/#present-a-local-in-app-notification-to-the-user",
+      "heading_path": "Notifications › Usage › Present a local (in-app) notification to the user",
+      "version": "v57.0.0"
+     },
+     {
+      "id": "28047468c4e246242a0e4659",
+      "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/#test-using-the-push-notifications-tool",
+      "heading_path": "Expo push notifications setup › Test using the push notifications tool",
+      "version": "unversioned"
+     },
+     {
+      "id": "64edd4048c5bbb823a54ff83",
+      "url": "https://docs.expo.dev/push-notifications/faq/#when-and-why-does-the-expopushtoken-change",
+      "heading_path": "Push notifications troubleshooting and FAQ › Expo push notification service FAQ › When and why does the `ExpoPushToken` change",
+      "version": "unversioned"
+     },
+     {
+      "id": "618b5ea395613f8f263e3d5b",
+      "url": "https://docs.expo.dev/guides/using-push-notifications-services/#send-notifications-directly-via-fcm-and-apns",
+      "heading_path": "Using push notifications › Send notifications directly via FCM and APNs",
+      "version": "unversioned"
+     },
+     {
+      "id": "2a1e7cc11055353e6175449f",
+      "url": "https://docs.expo.dev/push-notifications/sending-notifications/#delivery-guarantees",
+      "heading_path": "Send notifications with the Expo Push Service › Delivery guarantees",
+      "version": "unversioned"
+     }
+    ],
+    "latency_ms": 1593.0,
+    "effective": "fulltext"
+   },
+   "rn-01": {
+    "chunks": [
+     {
+      "id": "47ac8f949d88816a01ce620b",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#list-items",
+      "heading_path": "Optimizing FlatList Configuration › List items",
+      "version": "current"
+     },
+     {
+      "id": "91623d3d80d81b9a9388bbf1",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "1328f9a72cc63ebf8be5d0a2",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "652bef900eb252d2b71678ec",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "95e996dc2e2168887966e5fe",
+      "url": "https://reactnative.dev/docs/flatlist#methods",
+      "heading_path": "FlatList › Methods",
+      "version": "current"
+     },
+     {
+      "id": "f1b12766acd1b8354230fc34",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#terms",
+      "heading_path": "Optimizing FlatList Configuration › Terms",
+      "version": "current"
+     },
+     {
+      "id": "2510363fd1bc2e3e579a0aba",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "0488479f9cc955ac4c580141",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#props",
+      "heading_path": "Optimizing FlatList Configuration › Props",
+      "version": "current"
+     },
+     {
+      "id": "049e62b222bbca8bfb1f79fd",
+      "url": "https://reactnative.dev/docs/flatlist#example",
+      "heading_path": "FlatList › Example",
+      "version": "current"
+     },
+     {
+      "id": "ad082215eb6d2ac8c7289414",
+      "url": "https://reactnative.dev/docs/flatlist#example",
+      "heading_path": "FlatList › Example",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 3766.0,
+    "effective": "fulltext"
+   },
+   "rn-02": {
+    "chunks": [
+     {
+      "id": "bf984ecbcba9dc01b1ea6332",
+      "url": "https://reactnative.dev/docs/accessibility#checking-if-a-screen-reader-is-enabled",
+      "heading_path": "Accessibility › Checking if a Screen Reader is Enabled",
+      "version": "current"
+     },
+     {
+      "id": "511e9e40a1c9768f71608dae",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     },
+     {
+      "id": "93875547522ec25e90f3cd03",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     },
+     {
+      "id": "cfed85036b13257d734497ed",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     },
+     {
+      "id": "b2317e12735442c5ff3fd2e2",
+      "url": "https://reactnative.dev/docs/using-a-listview",
+      "heading_path": "Using List Views",
+      "version": "current"
+     },
+     {
+      "id": "dd4f99c9ced39eb9ee55c58b",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     },
+     {
+      "id": "917d75b9216de24888840271",
+      "url": "https://reactnative.dev/docs/touchablewithoutfeedback#props",
+      "heading_path": "TouchableWithoutFeedback › Props",
+      "version": "current"
+     },
+     {
+      "id": "934b48eedffe72733fc9f594",
+      "url": "https://reactnative.dev/docs/accessibility",
+      "heading_path": "Accessibility",
+      "version": "current"
+     },
+     {
+      "id": "26334170a981d99875090ccc",
+      "url": "https://reactnative.dev/docs/accessibility#accessibility-properties",
+      "heading_path": "Accessibility › Accessibility properties",
+      "version": "current"
+     },
+     {
+      "id": "bdfd870c3696d8cc657038d3",
+      "url": "https://reactnative.dev/docs/text#props",
+      "heading_path": "Text › Props",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 1547.0,
+    "effective": "fulltext"
+   },
+   "rn-03": {
+    "chunks": [
+     {
+      "id": "d02bf3ef8a6ab0c3d365b272",
+      "url": "https://reactnative.dev/docs/turbo-native-modules-ios#build-and-run-your-code-on-a-simulator",
+      "heading_path": "Turbo Native Modules: iOS › Build and run your code on a Simulator",
+      "version": "current"
+     },
+     {
+      "id": "540b9eb408ca792e6fd85227",
+      "url": "https://reactnative.dev/docs/the-new-architecture/turbo-modules-with-swift#build-and-run-your-app",
+      "heading_path": "iOS - Using Swift in Your Native Modules › Build and Run Your App",
+      "version": "current"
+     },
+     {
+      "id": "e8a01d5555102030b010ba83",
+      "url": "https://reactnative.dev/docs/images#ios-border-radius-styles",
+      "heading_path": "Images › iOS Border Radius Styles",
+      "version": "current"
+     },
+     {
+      "id": "10a9d3c941fc0e77b1935450",
+      "url": "https://reactnative.dev/docs/alert#ios",
+      "heading_path": "Alert › iOS",
+      "version": "current"
+     },
+     {
+      "id": "edde1590a2c67d52af9c633d",
+      "url": "https://reactnative.dev/docs/components-and-apis#ios-components-and-apis",
+      "heading_path": "Core Components and APIs › iOS Components and APIs",
+      "version": "current"
+     },
+     {
+      "id": "320bc5dae7a12bc9eba0cc1a",
+      "url": "https://reactnative.dev/docs/legacy/native-modules-ios#invalidate",
+      "heading_path": "iOS Native Modules › Beyond a Calendar Native Module › Reserved Method Names › invalidate()",
+      "version": "current"
+     },
+     {
+      "id": "febce647559b28aa5099adb0",
+      "url": "https://reactnative.dev/docs/the-new-architecture/native-modules-lifecycle#ios",
+      "heading_path": "Native Modules Lifecycle › iOS",
+      "version": "current"
+     },
+     {
+      "id": "b9e05253c753491a6e9cee3a",
+      "url": "https://reactnative.dev/docs/turbo-native-modules-ios#register-the-native-module-in-your-app",
+      "heading_path": "Turbo Native Modules: iOS › Register the Native Module in your app",
+      "version": "current"
+     },
+     {
+      "id": "4f1a60d8efe39ac092f27c53",
+      "url": "https://reactnative.dev/docs/legacy/native-components-ios#handling-multiple-native-views",
+      "heading_path": "iOS Native UI Components › Handling multiple native views",
+      "version": "current"
+     },
+     {
+      "id": "9f13da0bf420dd2d94654446",
+      "url": "https://reactnative.dev/docs/legacy/native-modules-ios#dependency-injection",
+      "heading_path": "iOS Native Modules › Beyond a Calendar Native Module › Dependency Injection",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 1890.0,
+    "effective": "fulltext"
+   },
+   "rn-04": {
+    "chunks": [
+     {
+      "id": "8c50cc9bbe337ad1bd240268",
+      "url": "https://reactnative.dev/docs/textinput#methods",
+      "heading_path": "TextInput › Methods",
+      "version": "current"
+     },
+     {
+      "id": "53556283e984cbbe2b620905",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "fab32795ebc54a98d6da3d72",
+      "url": "https://reactnative.dev/docs/textinput",
+      "heading_path": "TextInput",
+      "version": "current"
+     },
+     {
+      "id": "24938bada64270d6d11d623c",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "22a94b065c21db52265792d2",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "4a2a1207b42f07f6c0f48ef2",
+      "url": "https://reactnative.dev/docs/textinput",
+      "heading_path": "TextInput",
+      "version": "current"
+     },
+     {
+      "id": "efcc59ef21a231e578701f2b",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "4b76a3494a55a37da15e772f",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "f80ddadb072fc43c2ce7fc34",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     },
+     {
+      "id": "8fdec58323927e427f2bd273",
+      "url": "https://reactnative.dev/docs/textinput#props",
+      "heading_path": "TextInput › Props",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 1594.0,
+    "effective": "fulltext"
+   },
+   "rn-05": {
+    "chunks": [
+     {
+      "id": "b84fcd32fa276c5c8a65bb4a",
+      "url": "https://reactnative.dev/docs/height-and-width#percentage-dimensions",
+      "heading_path": "Height and Width › Percentage Dimensions",
+      "version": "current"
+     },
+     {
+      "id": "3611ecbe68bdb0c103b801d0",
+      "url": "https://reactnative.dev/docs/usewindowdimensions#width",
+      "heading_path": "useWindowDimensions › Properties › `width`",
+      "version": "current"
+     },
+     {
+      "id": "fb55d861121ae6a93d5de174",
+      "url": "https://reactnative.dev/docs/dimensions#methods",
+      "heading_path": "Dimensions › Methods",
+      "version": "current"
+     },
+     {
+      "id": "f1f47fe0631bae4e3c3d1d41",
+      "url": "https://reactnative.dev/docs/the-new-architecture/fabric-component-native-commands#2-update-the-app-code-to-use-the-new-command",
+      "heading_path": "Invoking native functions on your native component › 2. Update the App code to use the new command",
+      "version": "current"
+     },
+     {
+      "id": "11291597ca23b756fc7bc917",
+      "url": "https://reactnative.dev/docs/height-and-width",
+      "heading_path": "Height and Width",
+      "version": "current"
+     },
+     {
+      "id": "12710dd9c43c249019596a8b",
+      "url": "https://reactnative.dev/docs/usewindowdimensions",
+      "heading_path": "useWindowDimensions",
+      "version": "current"
+     },
+     {
+      "id": "35a35704eae5e5262553198c",
+      "url": "https://reactnative.dev/docs/dimensions",
+      "heading_path": "Dimensions",
+      "version": "current"
+     },
+     {
+      "id": "561ffc834628e6140c63857a",
+      "url": "https://reactnative.dev/docs/global-window",
+      "heading_path": "window",
+      "version": "current"
+     },
+     {
+      "id": "edaea38342699ed398d9b83b",
+      "url": "https://reactnative.dev/docs/flexbox#width-and-height",
+      "heading_path": "Layout with Flexbox › Width and Height",
+      "version": "current"
+     },
+     {
+      "id": "096d95c2e85bd2bfb81a0885",
+      "url": "https://reactnative.dev/docs/flexbox#width-and-height",
+      "heading_path": "Layout with Flexbox › Width and Height",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 1922.0,
+    "effective": "fulltext"
+   },
+   "rn-06": {
+    "chunks": [
+     {
+      "id": "47ac8f949d88816a01ce620b",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#list-items",
+      "heading_path": "Optimizing FlatList Configuration › List items",
+      "version": "current"
+     },
+     {
+      "id": "652bef900eb252d2b71678ec",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "2510363fd1bc2e3e579a0aba",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "91623d3d80d81b9a9388bbf1",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "f1b12766acd1b8354230fc34",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#terms",
+      "heading_path": "Optimizing FlatList Configuration › Terms",
+      "version": "current"
+     },
+     {
+      "id": "0488479f9cc955ac4c580141",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#props",
+      "heading_path": "Optimizing FlatList Configuration › Props",
+      "version": "current"
+     },
+     {
+      "id": "1d0852cc369aace413fbca09",
+      "url": "https://reactnative.dev/docs/flatlist",
+      "heading_path": "FlatList",
+      "version": "current"
+     },
+     {
+      "id": "d162eeb3dd94c1ce6f6051c6",
+      "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration#props",
+      "heading_path": "Optimizing FlatList Configuration › Props",
+      "version": "current"
+     },
+     {
+      "id": "1328f9a72cc63ebf8be5d0a2",
+      "url": "https://reactnative.dev/docs/flatlist#props",
+      "heading_path": "FlatList › Props",
+      "version": "current"
+     },
+     {
+      "id": "95e996dc2e2168887966e5fe",
+      "url": "https://reactnative.dev/docs/flatlist#methods",
+      "heading_path": "FlatList › Methods",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 2094.0,
+    "effective": "fulltext"
+   },
+   "rn-07": {
+    "chunks": [
+     {
+      "id": "b0aeab7738591bac7a99dda8",
+      "url": "https://reactnative.dev/docs/react-native-devtools#useful-tips-4",
+      "heading_path": "React Native DevTools › Core features › Memory › Useful tips",
+      "version": "current"
+     },
+     {
+      "id": "e2735436dfe3253abc5c59b8",
+      "url": "https://reactnative.dev/docs/react-native-devtools#reconnecting-devtools",
+      "heading_path": "React Native DevTools › Reconnecting DevTools",
+      "version": "current"
+     },
+     {
+      "id": "d671bd9fd535d960b19dfae4",
+      "url": "https://reactnative.dev/docs/react-native-devtools#react-devtools-features",
+      "heading_path": "React Native DevTools › React DevTools features",
+      "version": "current"
+     },
+     {
+      "id": "6ca490e82ba56cc541e79253",
+      "url": "https://reactnative.dev/docs/react-native-devtools",
+      "heading_path": "React Native DevTools",
+      "version": "current"
+     },
+     {
+      "id": "e4dc58885abac4e8e5d71986",
+      "url": "https://reactnative.dev/docs/react-native-devtools#core-features",
+      "heading_path": "React Native DevTools › Core features",
+      "version": "current"
+     },
+     {
+      "id": "fbe4582a0822f8106354799e",
+      "url": "https://reactnative.dev/docs/react-native-devtools#core-features",
+      "heading_path": "React Native DevTools › Core features",
+      "version": "current"
+     },
+     {
+      "id": "aa244c52b0180109ab8b04bc",
+      "url": "https://reactnative.dev/docs/debugging",
+      "heading_path": "Debugging Basics",
+      "version": "current"
+     },
+     {
+      "id": "eb5700aae3a8ce4f3d58a29e",
+      "url": "https://reactnative.dev/docs/debugging#console-errors-and-warnings",
+      "heading_path": "Debugging Basics › LogBox › Console Errors and Warnings",
+      "version": "current"
+     },
+     {
+      "id": "e88ac4d45627423f45612a6b",
+      "url": "https://reactnative.dev/docs/other-debugging-methods",
+      "heading_path": "Other Debugging Methods",
+      "version": "current"
+     },
+     {
+      "id": "bc720d421a22fb71d9da47e5",
+      "url": "https://reactnative.dev/docs/virtualview",
+      "heading_path": "VirtualView 🧪",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 2515.0,
+    "effective": "fulltext"
+   },
+   "rn-08": {
+    "chunks": [
+     {
+      "id": "4684360c0a47ccb7e4886e07",
+      "url": "https://reactnative.dev/docs/stylesheet#hairlinewidth",
+      "heading_path": "StyleSheet › Properties › `hairlineWidth`",
+      "version": "current"
+     },
+     {
+      "id": "44507aee5ba0b6953d3a5524",
+      "url": "https://reactnative.dev/docs/stylesheet#properties",
+      "heading_path": "StyleSheet › Properties",
+      "version": "current"
+     },
+     {
+      "id": "de7dcba5cde6d5ca712e20ca",
+      "url": "https://reactnative.dev/docs/stylesheet",
+      "heading_path": "StyleSheet",
+      "version": "current"
+     },
+     {
+      "id": "072f18bd8ff13d9b81200bf3",
+      "url": "https://reactnative.dev/docs/stylesheet#methods",
+      "heading_path": "StyleSheet › Methods",
+      "version": "current"
+     },
+     {
+      "id": "c9dcec420f57481d12cda8e0",
+      "url": "https://reactnative.dev/docs/image-style-props#image-tint",
+      "heading_path": "Image Style Props › Examples › Image Tint",
+      "version": "current"
+     },
+     {
+      "id": "7f2aa778f7ad5e61bc61108a",
+      "url": "https://reactnative.dev/docs/image-style-props#examples",
+      "heading_path": "Image Style Props › Examples",
+      "version": "current"
+     },
+     {
+      "id": "dabe4ff910da4980a5e781a6",
+      "url": "https://reactnative.dev/docs/view-style-props#example",
+      "heading_path": "View Style Props › Example",
+      "version": "current"
+     },
+     {
+      "id": "7005201f3cba8de2383f52ad",
+      "url": "https://reactnative.dev/docs/style",
+      "heading_path": "Style",
+      "version": "current"
+     },
+     {
+      "id": "d18066c2453646973fa062dc",
+      "url": "https://reactnative.dev/docs/image-style-props#image-resize-mode",
+      "heading_path": "Image Style Props › Examples › Image Resize Mode",
+      "version": "current"
+     },
+     {
+      "id": "8e06e3d4a2c276f299cd3125",
+      "url": "https://reactnative.dev/docs/linking#open-custom-settings",
+      "heading_path": "Linking › Example › Open Custom Settings",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 3250.0,
+    "effective": "fulltext"
+   },
+   "rn-09": {
+    "chunks": [
+     {
+      "id": "bf984ecbcba9dc01b1ea6332",
+      "url": "https://reactnative.dev/docs/accessibility#checking-if-a-screen-reader-is-enabled",
+      "heading_path": "Accessibility › Checking if a Screen Reader is Enabled",
+      "version": "current"
+     },
+     {
+      "id": "511e9e40a1c9768f71608dae",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     },
+     {
+      "id": "917d75b9216de24888840271",
+      "url": "https://reactnative.dev/docs/touchablewithoutfeedback#props",
+      "heading_path": "TouchableWithoutFeedback › Props",
+      "version": "current"
+     },
+     {
+      "id": "7988c1d4afd0da293b91aca5",
+      "url": "https://reactnative.dev/docs/navigation",
+      "heading_path": "Navigating Between Screens",
+      "version": "current"
+     },
+     {
+      "id": "d60613e030648287bc9ac538",
+      "url": "https://reactnative.dev/docs/accessibilityinfo",
+      "heading_path": "AccessibilityInfo",
+      "version": "current"
+     },
+     {
+      "id": "029321393cdc248e8e3133ee",
+      "url": "https://reactnative.dev/docs/accessibilityinfo#methods",
+      "heading_path": "AccessibilityInfo › Methods",
+      "version": "current"
+     },
+     {
+      "id": "7ce266ecc97395971a58264d",
+      "url": "https://reactnative.dev/docs/accessibilityinfo#methods",
+      "heading_path": "AccessibilityInfo › Methods",
+      "version": "current"
+     },
+     {
+      "id": "5fe5f258c4c207c7817327b7",
+      "url": "https://reactnative.dev/docs/accessibilityinfo#addeventlistener",
+      "heading_path": "AccessibilityInfo › Methods › `addEventListener()`",
+      "version": "current"
+     },
+     {
+      "id": "26334170a981d99875090ccc",
+      "url": "https://reactnative.dev/docs/accessibility#accessibility-properties",
+      "heading_path": "Accessibility › Accessibility properties",
+      "version": "current"
+     },
+     {
+      "id": "dd4f99c9ced39eb9ee55c58b",
+      "url": "https://reactnative.dev/docs/view#props",
+      "heading_path": "View › Props",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 1485.0,
+    "effective": "fulltext"
+   },
+   "rn-u1": {
+    "chunks": [
+     {
+      "id": "540b9eb408ca792e6fd85227",
+      "url": "https://reactnative.dev/docs/the-new-architecture/turbo-modules-with-swift#build-and-run-your-app",
+      "heading_path": "iOS - Using Swift in Your Native Modules › Build and Run Your App",
+      "version": "current"
+     },
+     {
+      "id": "35df4aac7d541a18aea4e929",
+      "url": "https://reactnative.dev/docs/react-native-gradle-plugin#using-flavors--build-variants",
+      "heading_path": "React Native Gradle Plugin › Using Flavors & Build Variants",
+      "version": "current"
+     },
+     {
+      "id": "adc92753172eb3104dc5c877",
+      "url": "https://reactnative.dev/docs/running-on-device#building-your-app-for-production-2",
+      "heading_path": "Running On Device › Building your app for production",
+      "version": "current"
+     },
+     {
+      "id": "f70e817861b43b6389ca4480",
+      "url": "https://reactnative.dev/docs/running-on-device#building-your-app-for-production-1",
+      "heading_path": "Running On Device › Building your app for production",
+      "version": "current"
+     },
+     {
+      "id": "06e49e6253853adea2d1f66a",
+      "url": "https://reactnative.dev/docs/running-on-device#building-your-app-for-production-3",
+      "heading_path": "Running On Device › Building your app for production",
+      "version": "current"
+     },
+     {
+      "id": "e2735436dfe3253abc5c59b8",
+      "url": "https://reactnative.dev/docs/react-native-devtools#reconnecting-devtools",
+      "heading_path": "React Native DevTools › Reconnecting DevTools",
+      "version": "current"
+     },
+     {
+      "id": "03e40b0f5824f884bc5bf63b",
+      "url": "https://reactnative.dev/docs/signed-apk-android#migrating-old-android-react-native-apps-to-use-app-signing-by-google-play",
+      "heading_path": "Publishing to Google Play Store › Migrating old Android React Native apps to use App Signing by Google Play",
+      "version": "current"
+     },
+     {
+      "id": "323ed3145c55ae950ced1aa5",
+      "url": "https://reactnative.dev/docs/communication-android",
+      "heading_path": "Communication between native and React Native",
+      "version": "current"
+     },
+     {
+      "id": "a720fb5a7530f3871e982bb7",
+      "url": "https://reactnative.dev/docs/communication-ios",
+      "heading_path": "Communication between native and React Native",
+      "version": "current"
+     },
+     {
+      "id": "b9e05253c753491a6e9cee3a",
+      "url": "https://reactnative.dev/docs/turbo-native-modules-ios#register-the-native-module-in-your-app",
+      "heading_path": "Turbo Native Modules: iOS › Register the Native Module in your app",
+      "version": "current"
+     }
+    ],
+    "latency_ms": 2422.0,
+    "effective": "fulltext"
+   }
+  },
+  "hybrid": {
+   "expo-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-10": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-11": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-12": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-13": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-14": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-15": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-16": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-17": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-18": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-19": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u2": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u3": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   }
+  },
+  "hybrid_rerank": {
+   "expo-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-10": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-11": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-12": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-13": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-14": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-15": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-16": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-17": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-18": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-19": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u2": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "expo-u3": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-1-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-2-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-3-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v58": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "vs-4-v57": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-01": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-02": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-03": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-04": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-05": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-06": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-07": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-08": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-09": {
+    "chunks": [],
+    "error": "partial_vectors"
+   },
+   "rn-u1": {
+    "chunks": [],
+    "error": "partial_vectors"
+   }
+  }
+ },
+ "answers": {
+  "fulltext": {
+   "expo-01": {
+    "answer": "Keep the splash screen on screen until your data (or any other async work) finishes, then hide it manually.\n\n**Steps**\n\n1. **Prevent the splash screen from auto‑hiding** as soon as the app starts.  \n   ```tsx\n   import * as SplashScreen from 'expo-splash-screen';\n   SplashScreen.preventAutoHideAsync();   // keep it visible\n   ```\n\n2. **Load your data** (or perform any async initialization) in a `useEffect`. When the work is done, set a “ready” flag.  \n\n3. **Hide the splash screen** once the app is ready.  \n   ```tsx\n   useEffect(() => {\n     if (isReady) {\n       SplashScreen.hideAsync();   // or SplashScreen.hide()\n     }\n   }, [isReady]);\n   ```\n\n4. **Render nothing** while waiting, so the splash screen stays visible.  \n\n**Example (without Expo Router)**【3】:\n\n```tsx\nimport { useEffect, useState } from 'react';\nimport { View, Text } from 'react-native';\nimport * as SplashScreen from 'expo-splash-screen';\n\n// Keep the splash screen visible while we fetch resources\nSplashScreen.preventAutoHideAsync();\n\nexport default function App() {\n  const [isReady, setIsReady] = useState(false);\n\n  useEffect(() => {\n    async function loadData() {\n      try {\n        // await your API calls or other async work here\n      } catch (e) {\n        console.warn(e);\n      } finally {\n        setIsReady(true);\n      }\n    }\n    loadData();\n  }, []);\n\n  useEffect(() => {\n    if (isReady) {\n      SplashScreen.hideAsync();\n    }\n  }, [isReady]);\n\n  if (!isReady) return null;   // splash stays visible\n\n  return (\n    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>\n      <Text>App content</Text>\n    </View>\n  );\n}\n```\n\nThe splash screen will remain visible while your data loads and disappear as soon as `isReady` becomes `true`.",
+    "verification": {
+     "status": "unsupported",
+     "unsupported": true,
+     "refused": false,
+     "emitted": 0,
+     "verified": 0,
+     "removed": 0,
+     "precision": null,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 4405,
+    "usage": {
+     "usd": 0.0009573,
+     "prompt_tokens": 4504,
+     "completion_tokens": 466,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "expo-02": {
+    "answer": "On Android, values are stored in `SharedPreferences`, which are encrypted with Android's Keystore system [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6703,
+    "usage": {
+     "usd": 0.00114555,
+     "prompt_tokens": 3613,
+     "completion_tokens": 24,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-03": {
+    "answer": "Data persistence after uninstallation depends on the platform:\n\n* **On Android:** Data saved using `expo-secure-store` **will not be preserved** upon app uninstallation [3][5].\n* **On iOS:** Data **will persist** across app uninstallations if the app is reinstalled with the same bundle ID, due to how the iOS Keychain manages stored credentials [4][5]. However, you should not rely on this as a guarantee [5].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 5,
+     "verified": 5,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6281,
+    "usage": {
+     "usd": 0.0010494,
+     "prompt_tokens": 2690,
+     "completion_tokens": 96,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-04": {
+    "answer": "To read environment variables from a **.env** file in your app code, create a **.env** file in the root of your project directory and prefix your variables with `EXPO_PUBLIC_` [2]. \n\nYou can then access them directly in your JavaScript code using `process.env` [2]:\n\n```tsx\nimport { Button } from 'react-native';\n\nfunction Post() {\n  const apiUrl = process.env.EXPO_PUBLIC_API_URL;\n\n  async function onPress() {\n    await fetch(apiUrl, {... })\n  }\n\n  return <Button onPress={onPress} title=\"Post\" />;\n}\n```\n\nWhen you run `npx expo start`, Expo CLI automatically loads these variables and replaces references to `process.env.EXPO_PUBLIC_[VARNAME]` with the corresponding value in your app bundle [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 13484,
+    "usage": {
+     "usd": 0.0015498,
+     "prompt_tokens": 3606,
+     "completion_tokens": 186,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-05": {
+    "answer": "To protect screens in Expo Router so that only signed-in users can see them, you can use protected routes with `Stack.Protected` (or `Tabs.Protected`) and set the `guard` prop based on your authentication state [2][4]. \n\nHere is an example setup using a root layout:\n\n```tsx src/app/_layout.tsx\nimport { Stack } from 'expo-router';\nimport { useSession } from '@/ctx';\n\nexport function RootNavigator() {\n  const { session } = useSession();\n\n  return (\n    <Stack>\n      <Stack.Protected guard={!!session}>\n        <Stack.Screen name=\"(app)\" />\n      </Stack.Protected>\n\n      <Stack.Protected guard={!session}>\n        <Stack.Screen name=\"sign-in\" />\n      </Stack.Protected>\n    </Stack>\n  );\n}\n```[4]\n\nIf a user tries to access a protected screen or deep links into it while unauthenticated, they will automatically be redirected to the next available unprotected screen (such as the sign-in screen) [1][2][4].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 6,
+     "verified": 6,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 17483,
+    "usage": {
+     "usd": 0.00186875,
+     "prompt_tokens": 4204,
+     "completion_tokens": 242,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-06": {
+    "answer": "The `eas update:configure` command updates your **app.json** file with the `runtimeVersion` and `updates.url` properties, and adds the `extra.eas.projectId` field if your project was not previously using any EAS services [2].\n\nIf your project does not use Continuous Native Generation (CNG), it also makes the following native project changes:\n\n* **Android** (`android/app/src/main/AndroidManifest.xml`): Adds metadata for `EXPO_UPDATE_URL` and `EXPO_RUNTIME_VERSION`, and adds the `expo_runtime_version` string entry inside `android/app/src/main/res/values/strings.xml` [2].\n* **iOS** (`ios/project-name/Supporting/Expo.plist`): Adds `EXUpdatesRuntimeVersion` and `EXUpdatesURL` keys [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 7312,
+    "usage": {
+     "usd": 0.00162425,
+     "prompt_tokens": 3867,
+     "completion_tokens": 185,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-07": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The documentation does not contain information about prepared statements for `expo-sqlite`. The closest place to look is the SQLite documentation page [7].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 8125,
+    "usage": {
+     "usd": 0.0012935,
+     "prompt_tokens": 3864,
+     "completion_tokens": 53,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-08": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 57 (v57.0.0). The provided passages describe `expo-image-picker` usage for launching the image library and configuration, but they do not include details on opening the camera or enabling cropping for a captured photo. The closest related information is the general API import (`import * as ImagePicker from 'expo-image-picker';`) in passage [1] and the library description in passage [4], but they do not cover the camera launch or cropping options. You may need to consult the full SDK API reference for `ImagePicker.launchCameraAsync` and its `allowsEditing` option.",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 9078,
+    "usage": {
+     "usd": 0.0004845,
+     "prompt_tokens": 2584,
+     "completion_tokens": 157,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "expo-09": {
+    "answer": "**Answer**\n\nUse the foreground‑only request API:\n\n```ts\nimport * as Location from 'expo-location';\n\nasync function askForegroundPermission() {\n  const { status } = await Location.requestForegroundPermissionsAsync();\n  if (status!== 'granted') {\n    // permission denied – handle accordingly\n    return false;\n  }\n  return true;\n}\n```\n\n* `requestForegroundPermissionsAsync` maps to the iOS **When In Use** permission and the Android foreground location permission [1].  \n* On iOS you must also have the usage‑description keys in *Info.plist* (e.g., `NSLocationWhenInUseUsageDescription`) [7].  \n* On Android the required permissions (`ACCESS_COARSE_LOCATION` / `ACCESS_FINE_LOCATION`) are added automatically when you install `expo-location` [4].\n\nCall this function when the app is active (e.g., on launch or before you start tracking). The request will prompt the user, and the returned `status` tells you whether the permission was granted.",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3843,
+    "usage": {
+     "usd": 0.0006576,
+     "prompt_tokens": 3379,
+     "completion_tokens": 247,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "expo-10": {
+    "answer": "To install EAS CLI globally, run the following command (using `npm` is recommended) [4]:\n\n```sh\nnpm install --global eas-cli\n```\n\nOnce installed, if you are not already signed in using Expo CLI, run the following command to log in to your Expo account [1]:\n\n```sh\neas login\n```\n\nYou can verify that you are logged in by running `eas whoami` [1].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 7343,
+    "usage": {
+     "usd": 0.00079425,
+     "prompt_tokens": 1890,
+     "completion_tokens": 90,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-11": {
+    "answer": "Continuous Native Generation (CNG) is \"An abstract concept that describes the process of generating native projects from a set of inputs\" [3]. In Expo, CNG is implemented via the `prebuild` command [3].\n\n*(Note: The passages used for this answer are unversioned guides that apply to all versions [4].)*",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 1,
+     "quotes_verified": 1,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 13452,
+    "usage": {
+     "usd": 0.00082515,
+     "prompt_tokens": 2171,
+     "completion_tokens": 69,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-12": {
+    "answer": "To get push notification credentials for a development build:\n\n* **For Android:** You need to configure **Firebase Cloud Messaging (FCM)** to get credentials and set up your project [1].\n* **For iOS:** Make sure you have registered your iOS device before running `eas build` for the first time [1]. When you create a development build for the first time, answer \"yes\" when prompted by the EAS CLI to setup push notifications and generate a new Apple Push Notifications service key [1]. If you are not using EAS Build, run `eas credentials` manually [1].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 4,
+     "verified": 4,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 11609,
+    "usage": {
+     "usd": 0.0010974,
+     "prompt_tokens": 2652,
+     "completion_tokens": 120,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-13": {
+    "answer": "To make environment variables available to EAS Build, they must be defined on EAS servers [1]. You can also configure them on your build profiles using the `\"env\"` field in **eas.json**, which sets them on the EAS Build builder [6]. \n\nAdditionally, you can set environment variables dynamically during job execution using the `set-env` command within build hooks [4]:\n\n```sh\nset-env EXAMPLE_ENV \"example value\"\n```\n\nIf you are triggering builds from CI, ensure you set the environment variables on EAS servers rather than on your CI provider [1].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 4,
+     "verified": 4,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6655,
+    "usage": {
+     "usd": 0.00101395,
+     "prompt_tokens": 2365,
+     "completion_tokens": 121,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-14": {
+    "error": "unavailable: Every model provider is busy or rate-limited right now. Try again soon."
+   },
+   "expo-15": {
+    "answer": "Each environment variable can have one of three visibility settings:\n\n* **Plain text**: \"Visible on the website, in EAS CLI, and in logs.\" [1]\n* **Sensitive**: \"Obfuscated in EAS Build and Workflows job logs. You can use a toggle to make them visible on the website. They are also readable in EAS CLI.\" [1]\n* **Secret**: \"Not readable outside of the EAS servers, including on the website and in EAS CLI. They are obfuscated in EAS Build and Workflows job logs.\" [1]",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 1,
+     "quotes_verified": 1,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 8406,
+    "usage": {
+     "usd": 0.00091315,
+     "prompt_tokens": 2080,
+     "completion_tokens": 115,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-16": {
+    "answer": "**What a development build is**  \nA development build is a custom native binary that you create for your project, letting you control the native code and assets that are bundled with the app — instead of relying on the fixed native code that ships with Expo Go【5】.\n\n**Why use a development build instead of Expo Go**\n\n| Reason | Explanation |\n|--------|-------------|\n| **Native code not in Expo Go** | Expo Go can only run libraries whose native code is already included in its sandbox. If you need a library with native modules that aren’t part of Expo Go (e.g., React Native Firebase), you must create a development build so the native code is compiled into your app【7】. |\n| **Testing native assets** | App icon, name, splash screen, and other native assets are immutable in Expo Go. A development build lets you test those assets as they will appear in a production build【7】. |\n| **Push notifications & deep linking** | Remote push notifications and App/Universal Links require native configuration that Expo Go cannot provide. Development builds allow you to test these features correctly【7】. |\n| **Production‑grade projects** | Expo Go is meant as a learning sandbox and isn’t recommended for production apps. Development builds give you the same development workflow while producing a native app that matches your production configuration【5】. |\n\nIn short, use a development build when you need custom native code, want to test native assets or services, or are preparing a production‑ready app. Expo Go remains useful for quick prototyping, but its limitations make development builds the proper choice for real‑world projects.",
+    "verification": {
+     "status": "unsupported",
+     "unsupported": true,
+     "refused": false,
+     "emitted": 0,
+     "verified": 0,
+     "removed": 0,
+     "precision": null,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 9281,
+    "usage": {
+     "usd": 0.0005964,
+     "prompt_tokens": 2498,
+     "completion_tokens": 366,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "expo-17": {
+    "answer": "**Configure background location for iOS**\n\n1. **Add the required permission strings** – if you’re not using Continuous Native Generation (CNG), put the three usage‑description keys in your iOS Info.plist (or via the config plugin). Example:\n\n```xml\n<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>\n<string>Allow $(PRODUCT_NAME) to use your location</string>\n<key>NSLocationAlwaysUsageDescription</key>\n<string>Allow $(PRODUCT_NAME) to use your location</string>\n<key>NSLocationWhenInUseUsageDescription</key>\n<string>Allow $(PRODUCT_NAME) to use your location</string>\n```\n[6]\n\n2. **Enable the background‑mode flag** – iOS must list `location` in the `UIBackgroundModes` array.  \n   *If you use CNG, this is added automatically.*  \n   *If you configure manually, add it to `Expo.plist` (or directly to `Info.plist`):*\n\n```xml\n<key>UIBackgroundModes</key>\n<array>\n  <string>location</string>\n</array>\n```\n[6]\n\n3. **(Optional) Use the config plugin** – when using CNG you can set the permission messages in `app.json`/`app.config.js` and the plugin will inject both the usage‑description keys and the `UIBackgroundModes` entry for you:\n\n```json\n{\n  \"expo\": {\n    \"plugins\": [\n      [\n        \"expo-location\",\n        {\n          \"locationAlwaysAndWhenInUsePermission\": \"Allow $(PRODUCT_NAME) to use your location.\"\n        }\n      ]\n    ]\n  }\n}\n```\n[4]\n\nAfter these steps, your app can request foreground permissions as usual (`Location.requestForegroundPermissionsAsync`) and then start background updates (e.g., `Location.startLocationUpdatesAsync`) and iOS will allow them while the app runs in the background.",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6625,
+    "usage": {
+     "usd": 0.00070215,
+     "prompt_tokens": 2960,
+     "completion_tokens": 427,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "expo-18": {
+    "answer": "To use `useSQLiteContext()`, wrap your component tree in an `SQLiteProvider` and then call `useSQLiteContext()` inside a child component [1][2].\n\nHere is an example based on the documentation:\n\n```tsx\nimport { SQLiteProvider, useSQLiteContext, type SQLiteDatabase } from 'expo-sqlite';\nimport { useEffect, useState } from 'react';\nimport { View, Text, StyleSheet } from 'react-native';\n\nexport default function App() {\n  return (\n    <View style={styles.container}>\n      <SQLiteProvider databaseName=\"test.db\">\n        <Header />\n      </SQLiteProvider>\n    </View>\n  );\n}\n\nexport function Header() {\n  const db = useSQLiteContext();\n  const [version, setVersion] = useState('');\n\n  useEffect(() => {\n    async function setup() {\n      const result = await db.getFirstAsync<{ 'sqlite_version()': string }>(\n        'SELECT sqlite_version()'\n      );\n      setVersion(result?.['sqlite_version()']?? '');\n    }\n    setup();\n  }, [db]);\n\n  return (\n    <View>\n      <Text>SQLite version: {version}</Text>\n    </View>\n  );\n}\n\nconst styles = StyleSheet.create({\n  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },\n});\n```\n\nYou can also integrate `SQLiteProvider` with `React.Suspense` by passing the `useSuspense` prop [1]:\n\n```tsx\n<Suspense fallback={<Text>Loading...</Text>}>\n  <SQLiteProvider databaseName=\"test.db\" useSuspense>\n    <Header />\n  </SQLiteProvider>\n</Suspense>\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3858,
+    "usage": {
+     "usd": 0.002025,
+     "prompt_tokens": 3493,
+     "completion_tokens": 390,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-19": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The provided passages do not contain instructions on how to regenerate native Android and iOS folders from scratch; the closest place to look is the \"Developing and debugging a plugin\" guide [6].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3157,
+    "usage": {
+     "usd": 0.00081605,
+     "prompt_tokens": 2197,
+     "completion_tokens": 62,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-u1": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The documentation does not mention publishing to the Microsoft Windows Store, and the closest place to look is the \"FAQ\" page covering app store submissions [3].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 9781,
+    "usage": {
+     "usd": 0.00057395,
+     "prompt_tokens": 1440,
+     "completion_tokens": 56,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-u2": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 57 (v57.0.0). The provided passages do not contain information about building Expo apps for the PlayStation 5; the closest place to look for platform-specific building guides is in the documentation on building Expo apps for TV (such as Apple TV or Android TV) [3][7].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6389,
+    "usage": {
+     "usd": 0.0007064,
+     "prompt_tokens": 1706,
+     "completion_tokens": 77,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "expo-u3": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The documentation does not mention the monthly price of the Expo Enterprise plan in euros (it only notes that subscriptions are priced the same worldwide pre-tax). The closest place to look is the [Subscriptions, plans, and add-ons](https://docs.expo.dev/billing/plans/) page [4][7].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 13985,
+    "usage": {
+     "usd": 0.00140625,
+     "prompt_tokens": 3931,
+     "completion_tokens": 90,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-1-v58": {
+    "answer": "RTL support is enabled by default in SDK 58 and later [5]. To explicitly configure or opt into RTL layout support using the `expo-localization` config plugin in your **app.json**, use the `supportsRTL` or `forcesRTL` options [4][5]:\n\n```json app.json\n{\n  \"expo\": {\n    \"plugins\": [\n      [\n        \"expo-localization\",\n        {\n          \"supportsRTL\": true,\n          \"forcesRTL\": false\n        }\n      ]\n    ]\n  }\n}\n```\n\n* **`supportsRTL`**: Set to `true` (default) to allow the app to render in RTL for RTL device languages following React Native's `I18nManager`, or `false` to opt out [4][5].\n* **`forcesRTL`**: Set to `true` if you want to force RTL layout regardless of the device language (useful for testing or apps localized only for RTL locales) [4][5].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 7,
+     "verified": 7,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 10218,
+    "usage": {
+     "usd": 0.00170995,
+     "prompt_tokens": 3808,
+     "completion_tokens": 226,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-1-v57": {
+    "answer": "To turn on RTL layout with the **expo‑localization** config plugin, add the plugin to your app config and set the `supportsRTL` option to `true` (the default is already enabled, but you can declare it explicitly).\n\n```json\n// app.json\n{\n  \"expo\": {\n    \"plugins\": [\n      [\n        \"expo-localization\",\n        {\n          \"supportsRTL\": true   // enable RTL layout\n        }\n      ]\n    ]\n  }\n}\n```\n\nAfter rebuilding the app (e.g., with EAS Build or `expo prebuild`), the navigation and UI will follow the device’s RTL setting automatically.  \n\n*Supported by the expo‑localization config plugin*【2】.",
+    "verification": {
+     "status": "unsupported",
+     "unsupported": true,
+     "refused": false,
+     "emitted": 0,
+     "verified": 0,
+     "removed": 0,
+     "precision": null,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 17296,
+    "usage": {
+     "usd": 0.0007818,
+     "prompt_tokens": 4223,
+     "completion_tokens": 243,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "vs-2-v58": {
+    "answer": "To mark copied clipboard content as sensitive on Android, set `android.isSensitive: true` when calling `setStringAsync` or `setImageAsync` [1]. \n\nHere is an example for both sensitive text and images:\n\n```ts\nimport * as Clipboard from 'expo-clipboard';\n\n// Sensitive text\nawait Clipboard.setStringAsync('my-secret-token', {\n  android: { isSensitive: true },\n});\n\n// Sensitive image\nawait Clipboard.setImageAsync(base64Image, {\n  android: { isSensitive: true },\n});\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 5171,
+    "usage": {
+     "usd": 0.0010768,
+     "prompt_tokens": 2575,
+     "completion_tokens": 121,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-2-v57": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 57 (v57.0.0). The provided Clipboard documentation (passage [1]) describes how to get and set clipboard text but does not mention any API for marking clipboard content as sensitive on Android. You may need to consult the native Android documentation or look for a newer Expo module that adds this capability.",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 2969,
+    "usage": {
+     "usd": 0.0004179,
+     "prompt_tokens": 2378,
+     "completion_tokens": 99,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "vs-3-v58": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The provided passages discuss installing and configuring `expo-file-system`, using `File`, `Directory`, and `Paths`, and using `expo-document-picker`, but do not cover opening files in a native preview. The closest place to look is the `expo-file-system` documentation (see [FileSystem][6]).",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3593,
+    "usage": {
+     "usd": 0.000995,
+     "prompt_tokens": 2541,
+     "completion_tokens": 92,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-3-v57": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 57 (v57.0.0). The provided passages do not contain information about opening a downloaded file in a native preview using `expo-file-system`. The closest place to look for file system functionality is the [FileSystem](https://docs.expo.dev/versions/v57.0.0/sdk/filesystem/) documentation [7].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 12202,
+    "usage": {
+     "usd": 0.0010472,
+     "prompt_tokens": 2740,
+     "completion_tokens": 89,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-4-v58": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 58 (v58.0.0). The documentation does not mention setting a large icon for Android notifications in the config plugin. The closest place to look is the \"Expo push notifications setup\" page [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 10983,
+    "usage": {
+     "usd": 0.0006947,
+     "prompt_tokens": 1815,
+     "completion_tokens": 59,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "vs-4-v57": {
+    "answer": "I couldn't find this in the Expo docs for Expo SDK 57 (v57.0.0). The provided passages do not contain information about configuring a large icon for Android notifications inside the `expo-notifications` config plugin. The closest place to look is the \"Expo push notifications setup\" page [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 4657,
+    "usage": {
+     "usd": 0.0007387,
+     "prompt_tokens": 1895,
+     "completion_tokens": 67,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-01": {
+    "answer": "To render a list, `FlatList` requires the following prop:\n\n* **`data`**: An array (or array-like list) of items to render [3].\n* **`renderItem`**: A function that takes an item from `data` and renders it into the list [2].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 6108,
+    "usage": {
+     "usd": 0.00121915,
+     "prompt_tokens": 3525,
+     "completion_tokens": 64,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-02": {
+    "answer": "To make a view discoverable and readable as a single accessibility element by assistive technologies, set the `accessible` prop to `true` on that view [8]. \n\n\"When `true`, indicates that the view is an accessibility element and discoverable by assistive technologies such as screen readers and hardware keyboards\" [3].\n\nExample:\n\n```tsx\n<View>\n  <View accessible={true} />\n  <View />\n</View>\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 1,
+     "quotes_verified": 1,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 5906,
+    "usage": {
+     "usd": 0.0014936,
+     "prompt_tokens": 4180,
+     "completion_tokens": 95,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-03": {
+    "answer": "I couldn't find this in the React Native docs for React Native (current docs). The provided passages do not contain information on how to check if the app is running on iOS or Android, and the closest place to look is the core components and APIs documentation [5].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": true,
+     "emitted": 1,
+     "verified": 1,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 5437,
+    "usage": {
+     "usd": 0.00068545,
+     "prompt_tokens": 1818,
+     "completion_tokens": 55,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-04": {
+    "answer": "Use the **`onChangeText`** prop of `TextInput`. It is called each time the user types, receiving the new text as a plain string.\n\n```tsx\nimport React, {useState} from 'react';\nimport {TextInput, View} from 'react-native';\n\nexport default function Example() {\n  const [value, setValue] = useState('');\n\n  return (\n    <View>\n      <TextInput\n        value={value}\n        onChangeText={text => setValue(text)}   // runs on every keystroke\n        placeholder=\"Type here\"\n        style={{borderWidth: 1, padding: 8}}\n      />\n    </View>\n  );\n}\n```\n\n`onChangeText` “Callback that is called when the text input's text changes. Changed text is passed as a single string argument to the callback handler.”【4】",
+    "verification": {
+     "status": "unsupported",
+     "unsupported": true,
+     "refused": false,
+     "emitted": 0,
+     "verified": 0,
+     "removed": 0,
+     "precision": null,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 5625,
+    "usage": {
+     "usd": 0.00071655,
+     "prompt_tokens": 3958,
+     "completion_tokens": 201,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   },
+   "rn-05": {
+    "answer": "To get the window width and height and automatically update when the dimensions change, use the preferred `useWindowDimensions` hook [6][7]. It \"automatically updates all of its values when screen size or font scale changes\" [6].\n\n```tsx\nimport {useWindowDimensions} from 'react-native';\n\nconst App = () => {\n  const {height, width} = useWindowDimensions();\n  \n  return (\n    // Your component code\n  );\n};\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 3,
+     "verified": 3,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 1,
+     "quotes_verified": 1,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3889,
+    "usage": {
+     "usd": 0.00146245,
+     "prompt_tokens": 4009,
+     "completion_tokens": 103,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-06": {
+    "answer": "Several `FlatList` (and underlying `VirtualizedList`) props help improve performance with long lists:\n\n* **`getItemLayout`**: If all list items have the same height or width, providing this prop \"removes the need for your `FlatList` to manage async layout calculations\" [1].\n* **`keyExtractor`**: Used for caching and tracking item re-ordering [1].\n* **`removeClippedSubviews`**: When `true`, offscreen child views are removed from their native backing superview, which can improve scroll performance [3]. Note that it defaults to `true` on Android [8].\n* **`initialNumToRender`**: Defines the initial amount of items to render, which can boost performance for the initial render [6].\n* **`windowSize`**: Controls the size of the mounted window (measured in viewport heights). A smaller `windowSize` saves memory by mounting fewer items simultaneously [6].\n* **`maxToRenderPerBatch`**: Controls the amount of items rendered in the next chunk during scrolling [8].\n* **`updateCellsBatchingPeriod`**: Controls the delay in milliseconds between batch renders [8].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 8,
+     "verified": 8,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 1,
+     "quotes_verified": 1,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 4391,
+    "usage": {
+     "usd": 0.0017376,
+     "prompt_tokens": 3737,
+     "completion_tokens": 246,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-07": {
+    "answer": "To open React Native DevTools, you can either:\n\n- Select \"Open DevTools\" in the in-app Dev Menu [7].\n- Press `j` from the CLI [7].",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 4453,
+    "usage": {
+     "usd": 0.00128555,
+     "prompt_tokens": 3939,
+     "completion_tokens": 41,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-08": {
+    "answer": "To define styles with `StyleSheet.create`, pass a JavaScript object containing style definitions to the method [4]. Using `StyleSheet.create` provides static type checking against native style properties [4].\n\nHere is an example:\n\n```javascript\nimport {StyleSheet, Text, View} from 'react-native';\n\nconst LotsOfStyles = () => {\n  return (\n    <View style={styles.container}>\n      <Text style={styles.red}>just red</Text>\n    </View>\n  );\n};\n\nconst styles = StyleSheet.create({\n  container: {\n    marginTop: 50,\n  },\n  red: {\n    color: 'red',\n  },\n});\n\nexport default LotsOfStyles;\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 2,
+     "verified": 2,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 3327,
+    "usage": {
+     "usd": 0.0017486,
+     "prompt_tokens": 4457,
+     "completion_tokens": 164,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-09": {
+    "answer": "To determine whether a screen reader is currently active, you can use the `AccessibilityInfo` API [1]. \n\nYou can check its state asynchronously using `AccessibilityInfo.isScreenReaderEnabled()` [5][6], or listen to changes dynamically using `AccessibilityInfo.addEventListener('screenReaderChanged',...)` [5][8].\n\nHere is an example showing both methods:\n\n```tsx\nimport {useState, useEffect} from 'react';\nimport {AccessibilityInfo, Text, StyleSheet} from 'react-native';\n\nconst App = () => {\n  const [screenReaderEnabled, setScreenReaderEnabled] = useState(false);\n\n  useEffect(() => {\n    const screenReaderChangedSubscription = AccessibilityInfo.addEventListener(\n      'screenReaderChanged',\n      isScreenReaderEnabled => {\n        setScreenReaderEnabled(isScreenReaderEnabled);\n      },\n    );\n\n    AccessibilityInfo.isScreenReaderEnabled().then(isScreenReaderEnabled => {\n      setScreenReaderEnabled(isScreenReaderEnabled);\n    });\n\n    return () => {\n      screenReaderChangedSubscription.remove();\n    };\n  }, []);\n\n  return (\n    <Text>\n      The screen reader is {screenReaderEnabled? 'enabled': 'disabled'}.\n    </Text>\n  );\n};\n\nexport default App;\n```",
+    "verification": {
+     "status": "supported",
+     "unsupported": false,
+     "refused": false,
+     "emitted": 5,
+     "verified": 5,
+     "removed": 0,
+     "precision": 1.0,
+     "quotes_checked": 0,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 4093,
+    "usage": {
+     "usd": 0.0019964,
+     "prompt_tokens": 4282,
+     "completion_tokens": 284,
+     "served_by": [
+      "gemini-3.5-flash-lite"
+     ]
+    }
+   },
+   "rn-u1": {
+    "answer": "I couldn't find this in the React Native docs for React Native (current docs). The provided passages cover iOS Swift modules, Android flavors, building for production, DevTools reconnection, Google Play signing, and native‑React communication, but none discuss building a Linux desktop application with GTK widgets. The closest related topic is the general “Communication between native and React Native” guide , which does not address Linux desktop or GTK integration.",
+    "verification": {
+     "status": "unsupported",
+     "unsupported": true,
+     "refused": true,
+     "emitted": 1,
+     "verified": 0,
+     "removed": 1,
+     "precision": 0.0,
+     "quotes_checked": 1,
+     "quotes_verified": 0,
+     "uncited_quotes": 0
+    },
+    "latency_ms": 2281,
+    "usage": {
+     "usd": 0.0004326,
+     "prompt_tokens": 2421,
+     "completion_tokens": 112,
+     "served_by": [
+      "openai/gpt-oss-120b"
+     ]
+    }
+   }
+  }
+ }
+}

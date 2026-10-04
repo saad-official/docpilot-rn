@@ -1,0 +1,70 @@
+[project]
+name = "docpilot-rn"
+version = "0.1.0"
+description = "Version-aware answers for Expo and React Native docs: hybrid retrieval (pgvector + Postgres full-text, RRF, optional rerank), streamed grounded answers, and deterministic citation verification."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Saad Khan" }]
+dependencies = [
+    # Provider layer, pinned to an exact commit of the public journey repo (same pin and
+    # reasoning as Changelog Forge, docs/decisions/0004-llm-kit-dependency.md there).
+    "llm-kit @ git+https://github.com/saad-official/ai-engineering-journey.git@2d83dd543611d3644106d29f2f12ee8b092d9d09#subdirectory=packages/llm-kit",
+    "fastapi>=0.115",
+    "uvicorn>=0.32",
+    "httpx>=0.27",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    "tiktoken>=0.8",
+    "typer>=0.12",
+    "pyyaml>=6.0",
+    "psycopg[binary]>=3.2",
+    "psycopg-pool>=3.2",
+]
+
+[project.scripts]
+ingest = "docpilot.ingest.cli:main"
+migrate = "docpilot.db.migrate:main"
+evals = "docpilot.evals.runner:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "respx>=0.21",
+    "ruff>=0.16",
+]
+
+# No [tool.uv.sources] entry for llm-kit on purpose: the git reference above is the single
+# source everywhere. To develop against the sibling checkout, overlay it per command:
+#   uv run --with-editable ../../packages/llm-kit pytest -q
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docpilot"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["web"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["B011"]
+"src/docpilot/api/**" = ["B008"]
+"src/docpilot/ingest/cli.py" = ["B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "postgres: needs TEST_DATABASE_URL pointing at a disposable Postgres with pgvector",
+]

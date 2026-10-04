@@ -1,0 +1,1 @@
+Rewrite the user's latest message as one standalone search query for {{sdk_label}} documentation, using the earlier conversation only to resolve references such as "it", "that" or "on Android". Keep API names, package names and version numbers exactly as written. Reply with the query only: one line, no quotes, no explanation.
