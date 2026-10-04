@@ -1,0 +1,380 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  DocPilot RN design tokens.
+  A reference manual with a terminal edge: graphite on warm white paper.
+  Four colours carry meaning, nothing else is coloured:
+    cite indigo   = citations, links to sources, the quoted passage
+    version teal  = the selected SDK version
+    added green   = what a newer version added ("What changed?")
+    removed amber = what it removed or renamed away
+  Headings in IBM Plex Serif (printed-manual feel), body in IBM Plex Sans,
+  code, versions and numbers in IBM Plex Mono.
+*/
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-plex-serif), Georgia, ui-serif, serif;
+  --font-serif: var(--font-plex-serif), Georgia, ui-serif, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --color-paper: var(--paper);
+  --color-sheet: var(--sheet);
+  --color-graphite: var(--graphite);
+  --color-pencil: var(--pencil);
+  --color-rule: var(--rule);
+
+  --color-cite: var(--cite);
+  --color-cite-ink: var(--cite-ink);
+  --color-cite-wash: var(--cite-wash);
+  --color-cite-mark: var(--cite-mark);
+  --color-version: var(--version);
+  --color-version-ink: var(--version-ink);
+  --color-version-wash: var(--version-wash);
+  --color-added: var(--added);
+  --color-added-ink: var(--added-ink);
+  --color-added-wash: var(--added-wash);
+  --color-removed: var(--removed);
+  --color-removed-ink: var(--removed-ink);
+  --color-removed-wash: var(--removed-wash);
+
+  --color-term: var(--term);
+  --color-term-fg: var(--term-fg);
+  --color-term-dim: var(--term-dim);
+  --color-term-rule: var(--term-rule);
+  --color-term-teal: var(--term-teal);
+  --color-term-indigo: var(--term-indigo);
+  --color-term-green: var(--term-green);
+  --color-term-amber: var(--term-amber);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  --shadow-sheet: 0 1px 0 var(--rule), 0 16px 32px -26px oklch(0.2 0.01 265 / 45%);
+}
+
+:root {
+  /* Warm white paper, graphite ink. */
+  --paper: oklch(0.978 0.006 85);
+  --sheet: oklch(0.995 0.003 85);
+  --graphite: oklch(0.25 0.012 265);
+  /* Secondary text: about 6.5:1 on paper. */
+  --pencil: oklch(0.47 0.012 265);
+  --rule: oklch(0.89 0.008 85);
+
+  /* Semantic. *-ink is for text and chip labels (>= 4.5:1 on paper and on its wash). */
+  --cite: oklch(0.52 0.19 277);
+  --cite-ink: oklch(0.45 0.18 277);
+  --cite-wash: oklch(0.95 0.025 277);
+  --cite-mark: oklch(0.91 0.05 277);
+  --version: oklch(0.58 0.1 192);
+  --version-ink: oklch(0.43 0.08 192);
+  --version-wash: oklch(0.95 0.028 192);
+  --added: oklch(0.62 0.14 152);
+  --added-ink: oklch(0.44 0.11 152);
+  --added-wash: oklch(0.95 0.035 152);
+  --removed: oklch(0.76 0.15 72);
+  --removed-ink: oklch(0.48 0.11 60);
+  --removed-wash: oklch(0.955 0.045 82);
+
+  /* Terminal panel: graphite in both themes. */
+  --term: oklch(0.23 0.012 265);
+  --term-fg: oklch(0.94 0.006 85);
+  --term-dim: oklch(0.73 0.012 265);
+  --term-rule: oklch(1 0 0 / 10%);
+  --term-teal: oklch(0.82 0.1 192);
+  --term-indigo: oklch(0.8 0.1 277);
+  --term-green: oklch(0.82 0.14 152);
+  --term-amber: oklch(0.85 0.13 80);
+
+  --background: var(--paper);
+  --foreground: var(--graphite);
+  --card: var(--sheet);
+  --card-foreground: var(--graphite);
+  --popover: var(--sheet);
+  --popover-foreground: var(--graphite);
+  --primary: var(--graphite);
+  --primary-foreground: var(--sheet);
+  --secondary: oklch(0.94 0.008 85);
+  --secondary-foreground: var(--graphite);
+  --muted: oklch(0.948 0.007 85);
+  --muted-foreground: var(--pencil);
+  --accent: oklch(0.94 0.008 85);
+  --accent-foreground: var(--graphite);
+  --destructive: oklch(0.5 0.17 27);
+  --border: var(--rule);
+  --input: oklch(0.8 0.01 85);
+  --ring: var(--cite);
+  --chart-1: var(--cite);
+  --chart-2: var(--version);
+  --chart-3: var(--added);
+  --chart-4: var(--removed);
+  --chart-5: var(--pencil);
+  --radius: 0.375rem;
+  --sidebar: var(--sheet);
+  --sidebar-foreground: var(--graphite);
+  --sidebar-primary: var(--graphite);
+  --sidebar-primary-foreground: var(--sheet);
+  --sidebar-accent: var(--muted);
+  --sidebar-accent-foreground: var(--graphite);
+  --sidebar-border: var(--rule);
+  --sidebar-ring: var(--cite);
+}
+
+.dark {
+  --paper: oklch(0.18 0.008 265);
+  --sheet: oklch(0.212 0.009 265);
+  --graphite: oklch(0.93 0.007 85);
+  --pencil: oklch(0.74 0.012 265);
+  --rule: oklch(1 0 0 / 12%);
+
+  --cite: oklch(0.72 0.14 277);
+  --cite-ink: oklch(0.8 0.11 277);
+  --cite-wash: oklch(0.29 0.06 277);
+  --cite-mark: oklch(0.36 0.09 277);
+  --version: oklch(0.72 0.1 192);
+  --version-ink: oklch(0.83 0.09 192);
+  --version-wash: oklch(0.29 0.045 192);
+  --added: oklch(0.72 0.14 152);
+  --added-ink: oklch(0.83 0.13 152);
+  --added-wash: oklch(0.29 0.05 152);
+  --removed: oklch(0.8 0.14 78);
+  --removed-ink: oklch(0.86 0.12 80);
+  --removed-wash: oklch(0.3 0.05 75);
+
+  --term: oklch(0.145 0.008 265);
+  --term-rule: oklch(1 0 0 / 8%);
+
+  --background: var(--paper);
+  --foreground: var(--graphite);
+  --card: var(--sheet);
+  --card-foreground: var(--graphite);
+  --popover: var(--sheet);
+  --popover-foreground: var(--graphite);
+  --primary: var(--graphite);
+  --primary-foreground: oklch(0.2 0.008 265);
+  --secondary: oklch(0.26 0.009 265);
+  --secondary-foreground: var(--graphite);
+  --muted: oklch(0.245 0.009 265);
+  --muted-foreground: var(--pencil);
+  --accent: oklch(0.27 0.009 265);
+  --accent-foreground: var(--graphite);
+  --destructive: oklch(0.75 0.15 27);
+  --border: var(--rule);
+  --input: oklch(1 0 0 / 22%);
+  --ring: var(--cite);
+  --sidebar: var(--sheet);
+  --sidebar-foreground: var(--graphite);
+  --sidebar-primary: var(--graphite);
+  --sidebar-primary-foreground: oklch(0.2 0.008 265);
+  --sidebar-accent: var(--muted);
+  --sidebar-accent-foreground: var(--graphite);
+  --sidebar-border: var(--rule);
+  --sidebar-ring: var(--cite);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-plex-serif), Georgia, ui-serif, serif;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--cite) 26%, transparent);
+  }
+  /* One solid, high-contrast focus outline for links, summaries and focusable regions. */
+  a:focus-visible,
+  summary:focus-visible,
+  pre[tabindex]:focus-visible,
+  input[type="checkbox"]:focus-visible,
+  input[type="radio"]:focus-visible {
+    outline: 2px solid var(--cite);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Numbers that line up: counts, tokens, dollars. */
+@utility tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Mono figures: versions, chunk ids, latencies. */
+@utility figure {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Section kicker in the style of a manual's section mark: § 2 how it works */
+@utility kicker {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--pencil);
+}
+
+/* Block cursor while an answer streams; blinks only when motion is allowed. */
+@utility caret {
+  display: inline-block;
+  width: 0.5em;
+  height: 1.05em;
+  vertical-align: text-bottom;
+  background: currentColor;
+  opacity: 0.7;
+  @media (prefers-reduced-motion: no-preference) {
+    animation: caret-blink 1.1s steps(1, end) infinite;
+  }
+}
+
+@keyframes caret-blink {
+  0%,
+  55% {
+    opacity: 0.7;
+  }
+  56%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Answer prose: a printed-manual measure. */
+.prose-answer {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+.prose-answer > * + * {
+  margin-top: 0.9em;
+}
+.prose-answer h3,
+.prose-answer h4 {
+  font-family: var(--font-plex-serif), Georgia, ui-serif, serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 1.4em;
+}
+.prose-answer h3 {
+  font-size: 1.2rem;
+}
+.prose-answer h4 {
+  font-size: 1.05rem;
+}
+.prose-answer ul,
+.prose-answer ol {
+  padding-left: 1.4em;
+}
+.prose-answer ul {
+  list-style: disc;
+}
+.prose-answer ol {
+  list-style: decimal;
+}
+.prose-answer li + li {
+  margin-top: 0.35em;
+}
+.prose-answer li::marker {
+  color: var(--pencil);
+}
+.prose-answer :not(pre) > code {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  padding: 0.08em 0.32em;
+  border-radius: 0.25rem;
+  background: var(--muted);
+  border: 1px solid var(--rule);
+  overflow-wrap: anywhere;
+}
+.prose-answer a:not([data-cite]) {
+  color: var(--cite-ink);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--cite-ink) 40%, transparent);
+  text-underline-offset: 3px;
+}
+
+/* A source card reached by a citation link is highlighted (works without JS). */
+.source-card:target,
+.source-card[data-active="true"] {
+  outline: 2px solid var(--cite);
+  outline-offset: 2px;
+}
+.source-card {
+  scroll-margin-top: 6rem;
+}
