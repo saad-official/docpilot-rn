@@ -64,7 +64,7 @@ set_env . EMBEDDING_DIMENSIONS "$DIMS"
 set_env . GITHUB_TOKEN "$GH_TOKEN_VAL" --sensitive
 set_env . LANGFUSE_PUBLIC_KEY "$LF_PUBLIC"
 set_env . LANGFUSE_SECRET_KEY "$LF_SECRET" --sensitive
-set_env . WEB_ORIGIN "$WEB_URL,http://localhost:3600,http://localhost:3000"
+set_env . WEB_ORIGIN "$WEB_URL,http://localhost:3700,http://localhost:3600,http://localhost:3000"
 set_env . IP_HASH_SALT "$SALT" --sensitive
 
 echo "Pushing web env (project docpilot-rn, root dir web/)..."
@@ -84,7 +84,7 @@ EMBEDDING_DIMENSIONS=$DIMS
 GITHUB_TOKEN=$GH_TOKEN_VAL
 LANGFUSE_PUBLIC_KEY=$LF_PUBLIC
 LANGFUSE_SECRET_KEY=$LF_SECRET
-WEB_ORIGIN=http://localhost:3600,http://localhost:3000
+WEB_ORIGIN=http://localhost:3700,http://localhost:3600,http://localhost:3000
 PORT=7861
 ENV
 # web/ is owned by the web app's own setup; locally it needs NEXT_PUBLIC_API_URL=http://localhost:7861.
