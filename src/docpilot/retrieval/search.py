@@ -11,10 +11,12 @@ Four configurations exist so the eval can compare them on the same golden set:
 
 from __future__ import annotations
 
+import logging
 import time
 from collections import OrderedDict
 from typing import Any, Literal
 
+import httpx
 from pydantic import BaseModel, Field
 
 from ..embeddings import EmbeddingError, EmbeddingProvider
@@ -23,6 +25,8 @@ from . import query as q
 from .fusion import api_boost, order, rrf
 from .rerank import VoyageReranker
 from .sql import versions_for
+
+logger = logging.getLogger(__name__)
 
 Config = Literal["vector", "fulltext", "hybrid", "hybrid_rerank"]
 CONFIGS: tuple[Config, ...] = ("vector", "fulltext", "hybrid", "hybrid_rerank")
@@ -192,22 +196,35 @@ class Retriever:
             else:
                 started = time.monotonic()
                 candidates = [by_id[i] for i in result_ids]
-                result = self.reranker.rerank(
-                    query,
-                    [f"{c.title} › {c.heading_path}\n{c.content}" for c in candidates],
-                    top_k=self.rerank_top,
-                )
-                timings["rerank"] = (time.monotonic() - started) * 1000
-                reranked = []
-                for index, score in zip(result.order, result.scores, strict=True):
-                    chunk = candidates[index]
-                    chunk.scores["rerank"] = round(score, 6)
-                    chunk.score = round(score, 6)
-                    reranked.append(chunk.id)
-                rest = [i for i in result_ids if i not in set(reranked)]
-                result_ids = reranked + rest
-                trace["reranked"] = [[i, by_id[i].scores["rerank"]] for i in reranked]
-                rerank_tokens, rerank_usd = result.tokens, result.cost_usd
+                try:
+                    result = self.reranker.rerank(
+                        query,
+                        [f"{c.title} › {c.heading_path}\n{c.content}" for c in candidates],
+                        top_k=self.rerank_top,
+                    )
+                except httpx.HTTPError as exc:
+                    # Rerank is a quality boost, never a dependency: a rate limit (Voyage's
+                    # no-card tier allows 3 requests a minute) or a network blip degrades to
+                    # the fused order instead of failing the question.
+                    timings["rerank"] = (time.monotonic() - started) * 1000
+                    effective = "hybrid"
+                    status = getattr(getattr(exc, "response", None), "status_code", None)
+                    trace["rerank"] = (
+                        f"skipped ({status or exc.__class__.__name__}); RRF order used"
+                    )
+                    logger.warning("rerank skipped: %s", exc)
+                else:
+                    timings["rerank"] = (time.monotonic() - started) * 1000
+                    reranked = []
+                    for index, score in zip(result.order, result.scores, strict=True):
+                        chunk = candidates[index]
+                        chunk.scores["rerank"] = round(score, 6)
+                        chunk.score = round(score, 6)
+                        reranked.append(chunk.id)
+                    rest = [i for i in result_ids if i not in set(reranked)]
+                    result_ids = reranked + rest
+                    trace["reranked"] = [[i, by_id[i].scores["rerank"]] for i in reranked]
+                    rerank_tokens, rerank_usd = result.tokens, result.cost_usd
 
         return RetrievalResult(
             config=config,
