@@ -50,3 +50,15 @@ golden set, so optimistic).
 - Vector only with a bigger model: still misses exact identifiers; costs more per query.
 - A dedicated search engine (Elastic, Typesense): a second datastore for 5,000 chunks.
   Postgres already holds the vectors; `tsvector` + GIN is enough at this size.
+
+## Addendum, 5 October 2026: measured result
+
+With the whole corpus embedded by Voyage `voyage-4-lite` (1,024 dimensions), the live
+four-configuration eval on the 40-question golden set gave: vector recall@5 0.94 / MRR 0.84;
+full-text 0.86 / 0.69; hybrid (RRF k=60 + API-name boost) 0.86 / 0.70; hybrid + rerank
+0.86 / 0.70 (the reranker was rate-limited to 3 requests a minute during the run and skipped,
+so this row equals hybrid). Fusion pulled weaker full-text passages into the top 40 and the
+boost did not compensate, so the hypothesis in this record did not hold for this corpus and
+embedding model. The API now serves `vector` by default; `hybrid` and `hybrid_rerank` remain
+selectable per request and in the eval runner. Next experiments: fuse only when the question
+contains an exact API name; re-measure rerank with standard Voyage rate limits.

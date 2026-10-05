@@ -96,7 +96,7 @@ class AskService:
         retriever: Retriever,
         model_factory: ModelFactory,
         routing: Routing,
-        config: Config = "hybrid_rerank",
+        config: Config = "vector",
         context_budget: int = 6000,
         on_finish: Callable[[str, Ledger, dict[str, Any]], None] | None = None,
     ):

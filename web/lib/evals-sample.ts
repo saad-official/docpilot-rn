@@ -4,10 +4,6 @@
  * numbers from its results table here after each published run and set
  * `status: "published"` with the run date and golden-set version.
  *
- * Only configurations that were actually measured appear here. The vector,
- * hybrid and hybrid+rerank rows are added once the corpus is fully embedded
- * (Gemini's free tier embeds 1,000 chunks a day); until then the API serves
- * hybrid retrieval where vectors exist and full-text elsewhere.
  * Nothing here is computed by the web app.
  */
 
@@ -37,19 +33,46 @@ export type EvalSample = {
 export const evalsSample: EvalSample = {
   status: "published",
   runDate: "2026-10-05",
-  goldenSet: "golden v1 (Expo SDK 57 and 58, React Native current); full-text config measured, vector configs pending full embedding",
+  goldenSet: "golden v1 (Expo SDK 57 and 58, React Native current); Voyage voyage-4-lite 1,024-d embeddings over all 5,031 chunks",
   questions: 40,
   rows: [
     {
-      config: "full-text",
-      detail: "Postgres tsvector top-40, ts_rank, exact API-name boost",
-      recallAt5: 0.86,
-      mrr: 0.69,
-      citationPrecision: 0.99,
-      latencyP50Ms: 6400,
-      usdPerQuestion: 0.00109,
+      config: "vector",
+      detail: "pgvector cosine top-40 (voyage-4-lite)",
+      recallAt5: 0.94,
+      mrr: 0.84,
+      citationPrecision: 1.0,
+      latencyP50Ms: 6700,
+      usdPerQuestion: 0.00155,
       shipped: true,
     },
+    {
+      config: "full-text",
+      detail: "Postgres tsvector top-40, ts_rank, API-name boost",
+      recallAt5: 0.86,
+      mrr: 0.69,
+      citationPrecision: 1.0,
+      latencyP50Ms: 3200,
+      usdPerQuestion: 0.00118,
+    },
+    {
+      config: "hybrid",
+      detail: "vector ∪ full-text, RRF k=60 + API boost",
+      recallAt5: 0.86,
+      mrr: 0.7,
+      citationPrecision: 0.98,
+      latencyP50Ms: 5400,
+      usdPerQuestion: 0.00148,
+    },
+    {
+      config: "hybrid + rerank",
+      detail: "RRF top-40 → rerank-2.5-lite top-8 (rerank rate-limited during this run, so it matched hybrid)",
+      recallAt5: 0.86,
+      mrr: 0.7,
+      citationPrecision: 1.0,
+      latencyP50Ms: 6500,
+      usdPerQuestion: 0.00148,
+    },
   ],
-  refusalCorrect: { correct: 29, total: 35 },
+  refusalCorrect: { correct: 35, total: 35 },
 };
