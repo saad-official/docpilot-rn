@@ -16,7 +16,7 @@ max_delay_s = 4.0
 deadline_s = 10.0
 
 [prompts]
-answer = "v1"
+answer = "v2"
 diff = "v1"
 rewrite = "v1"
 judge = "v1"

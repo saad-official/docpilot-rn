@@ -63,7 +63,7 @@ class Engine:
 
         # Without an embedding key the vector half is unavailable: serve full-text only
         # rather than failing every question.
-        config: Config = "hybrid_rerank" if embedder is not None else "fulltext"
+        config: Config = "vector" if embedder is not None else "fulltext"
         service = AskService(
             store=store,
             retriever=retriever,
