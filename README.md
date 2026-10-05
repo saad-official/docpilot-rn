@@ -114,3 +114,10 @@ compared. A query embedded with model B against documents from model A returns a
 list that looks fine and is noise; nothing errors. So each corpus records its model and
 dimension, ingestion refuses to mix, the retriever refuses to search a corpus with another
 model, and switching models is an explicit re-embed (docs/setup.md).
+
+## Live
+
+- Web: https://docpilotrn.vercel.app · API: https://docpilot-rn-api.vercel.app (`/api/docs`)
+- Corpus live on 5 Oct 2026: Expo SDK 58 (877 chunks), SDK 57 (833), unversioned guides (2,432) and React Native current (889), all full-text searchable; vectors fill in at Gemini's free limit of 1,000 embeddings a day (a Voyage key removes the wait).
+- Verified against production: "How do I schedule a local notification with expo-notifications?" for SDK 58 streamed an answer in 2.0 s on Groq `gpt-oss-120b`, with one verified citation to the SDK 58 Notifications page and nothing removed, for $0.00047 at paid rates.
+- Measured eval (40 questions, full-text configuration): recall@5 0.86, MRR 0.69, citation precision 0.99, 29 of 35 answerable questions answered and all 4 unanswerable ones refused. Vector, hybrid and rerank rows follow once the corpus is fully embedded.
